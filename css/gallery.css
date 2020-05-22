@@ -1,0 +1,102 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  /* 1 - скроллбар */
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+}
+
+::-webkit-scrollbar-button {
+  /* 2 - кнопка */
+  background-color: #ef7f1a;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  /* 3 - трек */
+  background: transparent;
+  display: none;
+}
+
+::-webkit-scrollbar-track-piece {
+  /* 4 - видимая часть трека */
+}
+
+::-webkit-scrollbar-thumb {
+  /* 5 - ползунок */
+  border-radius: 2px;
+  background-color: #ef7f1a;
+}
+
+::-webkit-scrollbar-corner {
+  /* 6 - уголок */
+}
+
+::-webkit-resizer {
+  /* 7 - изменение размеров */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-underline: none;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+}
+
+.tap {
+  width: 30px;
+  visibility: hidden;
+  margin: -10px 0px 0px 0px;
+}
+.tap .cls-1 {
+  fill: white;
+}
+.tap .cls-2 {
+  fill: #ff962e;
+}
+
+.hidden {
+  display: none;
+}
+
+.masonry-container {
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.grid-sizer {
+  width: 25%;
+  float: left;
+  min-height: 1px;
+}
+
+.item {
+  height: 33.35vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item:hover .tap {
+  visibility: visible;
+  animation: bounce 2s infinite linear;
+  position: absolute;
+  z-index: 5555;
+}
+.item:hover img {
+  filter: brightness(0.4);
+}
+
+/*# sourceMappingURL=gallery.css.map */
