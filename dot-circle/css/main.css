@@ -48,6 +48,13 @@
     max-width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    overflow: hidden !important;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 100%;
@@ -78,9 +85,6 @@
 }
 .top-block .container .navbar {
   padding: 1rem 1rem;
-  background: white;
-}
-.top-block .container .navbar:hover {
   background: white;
 }
 .top-block .container .navbar .langauges {
@@ -588,6 +592,11 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 3rem !important;
+}
+@media (max-width: 768px) {
+  #main .second .container .card {
+    width: 100% !important;
+  }
 }
 #main .second .container .card h5 {
   font-size: 45px;
@@ -2386,23 +2395,23 @@
   box-shadow: -8px 5px 30px 0 rgba(0, 0, 0, 0.2);
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(1) {
-  transform: rotate(-8deg) translate(-111px, -170px) scale(2);
+  transform: rotate(7deg) translate(-111px, -170px) scale(2);
   transition-delay: 0.4s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(2) {
-  transform: rotate(-8deg) translate(-152px, 15px) scale(1.8);
+  transform: rotate(6deg) translate(-152px, 15px) scale(1.8);
   transition-delay: 0.45s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(3) {
-  transform: rotate(-10deg) translate(76px, 95px) scale(1.7);
+  transform: rotate(-6deg) translate(76px, 95px) scale(1.7);
   transition-delay: 0.55s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(4) {
-  transform: rotate(4deg) translate(300px, 60px) scale(1.5);
+  transform: rotate(6deg) translate(300px, 60px) scale(1.5);
   transition-delay: 0.5s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(5) {
-  transform: rotate(-8deg) translate(269px, -160px) scale(2);
+  transform: rotate(10deg) translate(269px, -160px) scale(2);
   transition-delay: 0.6s;
 }
 @keyframes shake {
