@@ -1,0 +1,70 @@
+@import "colors";
+
+.banners {
+  height: 310px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .banner {
+    margin: 0 40px 0 40px;
+    background: $color-darkestblue;
+    width: 200px;
+    height: 110px;
+    border: 1px solid $color-blue;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px $color-blue-transparent-50;
+    border-radius: 20px;
+    padding: 20px 0;
+    color: $color-yellow;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    @media (max-width: 540px) {
+      margin: 0 10px 0 10px;
+      width: 133px;
+      font-size: 12px;
+    }
+
+    &_checkers {
+      background: $color-darkestblue url("../assets/img/banner-checkers-sm.png")
+        no-repeat -13% 50%;
+    }
+
+    &_backgammon {
+      background: $color-darkestblue
+        url("../assets/img/banner-backgammon-sm.png") no-repeat -8% 50%;
+    }
+
+    div:nth-child(2) {
+      //display: inline-block;
+      position: relative;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 7px;
+      border: 1px solid $color-blue;
+      border-radius: 20px;
+      width: 150px;
+      height: 25px;
+      color: $color-yellow;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+
+      @media (max-width: 540px) {
+        font-size: 12px;
+        width: 120px;
+      }
+
+      &:hover {
+        text-decoration: none;
+        text-shadow: 0 0 1px $color-yellow;
+      }
+    }
+  }
+}

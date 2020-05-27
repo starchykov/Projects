@@ -1,0 +1,14 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.table-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-info div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Tournament.css.map */

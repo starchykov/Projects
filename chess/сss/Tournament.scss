@@ -1,0 +1,101 @@
+@import "colors";
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.no-shadow {
+  box-shadow: none;
+  width: 500px;
+  height: auto;
+
+  .table-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 80px 0;
+
+    div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 540px) {
+        width: 140px;
+      }
+
+      p {
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: FontAwesome, sans-serif;
+
+        @media (max-width: 540px) {
+          font-size: 10px;
+          width: 46%;
+        }
+      }
+    }
+
+    div:first-of-type {
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      background: $color-yellow;
+      color: $color-blue;
+    }
+
+    div:last-of-type {
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      background: $color-blue;
+      color: $color-yellow;
+    }
+  }
+
+  .reg-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    input {
+      height: 45px;
+      width: 80%;
+      border: 1px solid $color-yellow;
+      border-radius: 20px;
+      margin: 10px 0 10px 0;
+
+      &::placeholder {
+        font-family: FontAwesome, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: $color-blue;
+        font-size: 12px;
+        line-height: 14px;
+        outline: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .btn {
+      //display: block;
+      width: 40%;
+      height: 45px;
+      background: $color-blue;
+      box-shadow: 0 1px 10px $color-blue-transparent-50;
+      border-radius: 20px;
+      font-size: 22px;
+      line-height: 26px;
+      color: $color-yellow;
+      border: none;
+      outline: none;
+
+      @media (max-width: 540px) {
+        height: 30px;
+        font-size: 17px;
+      }
+    }
+  }
+}

@@ -503,7 +503,7 @@
   //     return false;
   // });
 
-  //-------------------------------------cards section seven--------------------------
+  //-------------------cards section seven--------------------------
 
   $(document).on("mouseenter", "#rc-first", function () {
     $("body #dt-first").css("display", "flex");

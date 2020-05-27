@@ -1,0 +1,68 @@
+@import "colors";
+
+.content-big {
+  .table {
+    border-spacing: 0;
+
+    thead {
+      th {
+        &:nth-child(4) {
+          width: 190px;
+
+          @media (max-width: 540px) {
+            width: 140px;
+            padding: 10px 0 10px 10px;
+          }
+        }
+
+        &:nth-child(5) {
+          width: 190px;
+
+          @media (max-width: 540px) {
+            width: 140px;
+            padding: 10px 0 10px 10px;
+          }
+        }
+
+        &:nth-child(6) {
+          width: 190px;
+
+          @media (max-width: 540px) {
+            width: 140px;
+            padding: 10px 0 10px 10px;
+          }
+        }
+
+        &:nth-child(7) {
+          width: 190px;
+
+          @media (max-width: 540px) {
+            width: 140px;
+            padding: 10px 0 10px 10px;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          //height: 34px;
+          //width: 34px;
+          //color: $color-blue;
+          //border-bottom: $color-blue;
+          //text-align: center;
+
+          //&:first-child {
+          //  border-bottom: transparent;
+          //  text-align: center;
+          //}
+        }
+      }
+
+      //tr:hover {
+      //  background: $color-yellow;
+      //}
+    }
+  }
+}

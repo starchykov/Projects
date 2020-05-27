@@ -1,0 +1,80 @@
+@import "colors";
+
+footer {
+  height: 201px;
+  background-color: $color-darkblue;
+  background: url(../assets/img/bg-footer.png) no-repeat center;
+  background-size: 100% 100%;
+
+  * {
+    color: $color-yellow;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .bg-chess {
+    display: flex;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      width: 33.3%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+
+      //span {
+      //  width: 70%;
+      //  text-align: left;
+      //}
+    }
+
+    a:first-of-type {
+      @media (max-width: 767px) {
+        position: absolute;
+        right: 15px;
+        width: 33.3%;
+        justify-content: flex-end;
+      }
+
+      @media (max-width: 425px) {
+        img {
+          margin: 0;
+        }
+      }
+    }
+
+    a:nth-last-of-type(2) {
+      @media (max-width: 767px) {
+        position: absolute;
+        left: 15px;
+        width: 33.3%;
+      }
+    }
+
+    a:last-of-type {
+      @media (max-width: 767px) {
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+
+        //span {
+        //  width: 100%;
+        //  text-align: center;
+        //}
+      }
+    }
+  }
+
+  .logo-img {
+    width: 130px;
+    height: 37px;
+  }
+}

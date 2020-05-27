@@ -1,0 +1,66 @@
+@import "colors";
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.tournament-result {
+  width: 100%;
+
+  .tournament-result-categ,
+  .tournament-result-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 45px;
+    width: 85%;
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+    color: $color-yellow;
+    background: $color-blue;
+    box-shadow: 0 1px 10px $color-blue-transparent-50;
+    font-size: 22px;
+    line-height: 26px;
+    border: none;
+    outline: none;
+
+    @media (max-width: 540px) {
+      width: 280px;
+    }
+
+    .categ {
+      width: 33.3%;
+      text-align: center;
+      font-size: 18px;
+
+      @media (max-width: 540px) {
+        font-size: 12px;
+
+        &:first-of-type,
+        &:nth-of-type(2) {
+          width: 45%;
+        }
+
+        &:nth-of-type(3),
+        &:nth-of-type(4) {
+          width: 20%;
+        }
+
+        &:nth-of-type(5),
+        &:nth-of-type(6) {
+          width: 35%;
+        }
+      }
+    }
+
+    .value {
+      width: 33.3%;
+      text-align: center;
+      font-size: 18px;
+      color: $color-blue;
+    }
+  }
+
+  .tournament-result-value {
+    background: none;
+    box-shadow: none;
+  }
+}

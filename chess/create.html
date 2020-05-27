@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="сss/jquery-ui.css" />
+    <link rel="stylesheet" href="сss/main.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create</title>
+    <link rel="shortcut icon" href="assets/img/ico.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <div class="menu-toggle">
+          <div class="hamburger"></div>
+        </div>
+
+        <ul class="open desktop">
+          <li>
+            <a class="ru lang-text" href="login.html">Вход</a>
+            <a class="eng lang-text" href="login.html">Login</a>
+          </li>
+
+          <li>
+            <a class="ru lang-text" href="registration.html">Регистрация</a>
+            <a class="eng lang-text" href="registration.html">Registration</a>
+          </li>
+
+          <li>
+            <a class="ru lang-text" href="remind-password.html"
+              >Напоминание пароля</a
+            >
+            <a class="eng lang-text" href="remind-password.html"
+              >Password reminder</a
+            >
+          </li>
+
+          <li>
+            <a class="ru lang-text" href="anonymous-game.html"
+              >Анонимная игра</a
+            >
+            <a class="eng lang-text" href="anonymous-game.html"
+              >Anonymous Game</a
+            >
+          </li>
+
+          <li>
+            <a id="ru-sw" class="lang" data-lang="ru" href="#">RUS</a>
+            <a id="eng-sw" class="lang" data-lang="eng" href="#">ENG</a>
+          </li>
+        </ul>
+
+        <p>
+          <a id="ru-sw-mb" class="lang" data-lang="ru" href="#">RUS</a>
+          <a id="eng-sw-mb" class="lang" data-lang="eng" href="#">ENG</a>
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div class="inner">
+        <div class="logo">
+          <svg
+            width="246"
+            height="76"
+            viewBox="0 0 246 76"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g filter="url(#filter0_d)">
+              <path
+                d="M47.625 36.5703C47.625 38.4297 47.2734 40.1797 46.5703 41.8203C45.8672 43.4453 44.9062 44.8672 43.6875 46.0859C42.4688 47.2891 41.0391 48.2422 39.3984 48.9453C37.7734 49.6484 36.0312 50 34.1719 50C32.3125 50 30.5625 49.6484 28.9219 48.9453C27.2969 48.2422 25.875 47.2891 24.6562 46.0859C23.4531 44.8672 22.5 43.4453 21.7969 41.8203C21.0938 40.1797 20.7422 38.4297 20.7422 36.5703V16.3906H27.4453V36.5703C27.4453 37.4922 27.6172 38.3594 27.9609 39.1719C28.3203 39.9844 28.8047 40.6953 29.4141 41.3047C30.0234 41.9141 30.7344 42.3984 31.5469 42.7578C32.375 43.1016 33.25 43.2734 34.1719 43.2734C35.0938 43.2734 35.9609 43.1016 36.7734 42.7578C37.6016 42.3984 38.3203 41.9141 38.9297 41.3047C39.5391 40.6953 40.0156 39.9844 40.3594 39.1719C40.7188 38.3594 40.8984 37.4922 40.8984 36.5703V16.3906H47.625V36.5703ZM80.2969 46.5547C78.7344 47.8984 76.9844 48.9297 75.0469 49.6484C73.1094 50.3672 71.1016 50.7266 69.0234 50.7266C67.4297 50.7266 65.8906 50.5156 64.4062 50.0938C62.9375 49.6875 61.5547 49.1094 60.2578 48.3594C58.9766 47.5938 57.8047 46.6797 56.7422 45.6172C55.6797 44.5547 54.7656 43.3828 54 42.1016C53.25 40.8047 52.6641 39.4219 52.2422 37.9531C51.8359 36.4688 51.6328 34.9297 51.6328 33.3359C51.6328 31.7422 51.8359 30.2031 52.2422 28.7188C52.6641 27.2344 53.25 25.8516 54 24.5703C54.7656 23.2734 55.6797 22.0938 56.7422 21.0312C57.8047 19.9688 58.9766 19.0625 60.2578 18.3125C61.5547 17.5469 62.9375 16.9609 64.4062 16.5547C65.8906 16.1328 67.4297 15.9219 69.0234 15.9219C71.1016 15.9219 73.1094 16.2812 75.0469 17C76.9844 17.7031 78.7344 18.7344 80.2969 20.0938L76.7344 25.9531C75.75 24.8906 74.5859 24.0781 73.2422 23.5156C71.8984 22.9375 70.4922 22.6484 69.0234 22.6484C67.5391 22.6484 66.1484 22.9297 64.8516 23.4922C63.5547 24.0547 62.4219 24.8203 61.4531 25.7891C60.4844 26.7422 59.7188 27.875 59.1562 29.1875C58.5938 30.4844 58.3125 31.8672 58.3125 33.3359C58.3125 34.8047 58.5938 36.1875 59.1562 37.4844C59.7188 38.7656 60.4844 39.8906 61.4531 40.8594C62.4219 41.8281 63.5547 42.5938 64.8516 43.1562C66.1484 43.7188 67.5391 44 69.0234 44C70.4922 44 71.8984 43.7188 73.2422 43.1562C74.5859 42.5781 75.75 41.7578 76.7344 40.6953L80.2969 46.5547ZM90.9375 50H84.2109V16.3906H90.9375V29.8438H104.367V16.3906H111.094V50H104.367V36.5703H90.9375V50ZM140.391 50H117.352V16.3906H140.391V23.1172H124.078V29.8438H135.117V36.5703H124.078V43.2734H140.391V50ZM142.758 26.4688C142.758 25.0781 143.023 23.7734 143.555 22.5547C144.086 21.3359 144.805 20.2734 145.711 19.3672C146.633 18.4453 147.703 17.7188 148.922 17.1875C150.141 16.6562 151.445 16.3906 152.836 16.3906H168.258V23.1172H152.836C152.367 23.1172 151.93 23.2031 151.523 23.375C151.117 23.5469 150.758 23.7891 150.445 24.1016C150.148 24.3984 149.914 24.75 149.742 25.1562C149.57 25.5625 149.484 26 149.484 26.4688C149.484 26.9375 149.57 27.3828 149.742 27.8047C149.914 28.2109 150.148 28.5703 150.445 28.8828C150.758 29.1797 151.117 29.4141 151.523 29.5859C151.93 29.7578 152.367 29.8438 152.836 29.8438H159.562C160.953 29.8438 162.258 30.1094 163.477 30.6406C164.711 31.1562 165.781 31.875 166.688 32.7969C167.609 33.7031 168.328 34.7734 168.844 36.0078C169.375 37.2266 169.641 38.5312 169.641 39.9219C169.641 41.3125 169.375 42.6172 168.844 43.8359C168.328 45.0547 167.609 46.125 166.688 47.0469C165.781 47.9531 164.711 48.6719 163.477 49.2031C162.258 49.7344 160.953 50 159.562 50H144.633V43.2734H159.562C160.031 43.2734 160.469 43.1875 160.875 43.0156C161.281 42.8438 161.633 42.6094 161.93 42.3125C162.242 42 162.484 41.6406 162.656 41.2344C162.828 40.8281 162.914 40.3906 162.914 39.9219C162.914 39.4531 162.828 39.0156 162.656 38.6094C162.484 38.2031 162.242 37.8516 161.93 37.5547C161.633 37.2422 161.281 37 160.875 36.8281C160.469 36.6562 160.031 36.5703 159.562 36.5703H152.836C151.445 36.5703 150.141 36.3047 148.922 35.7734C147.703 35.2422 146.633 34.5234 145.711 33.6172C144.805 32.6953 144.086 31.625 143.555 30.4062C143.023 29.1719 142.758 27.8594 142.758 26.4688ZM172.102 26.4688C172.102 25.0781 172.367 23.7734 172.898 22.5547C173.43 21.3359 174.148 20.2734 175.055 19.3672C175.977 18.4453 177.047 17.7188 178.266 17.1875C179.484 16.6562 180.789 16.3906 182.18 16.3906H197.602V23.1172H182.18C181.711 23.1172 181.273 23.2031 180.867 23.375C180.461 23.5469 180.102 23.7891 179.789 24.1016C179.492 24.3984 179.258 24.75 179.086 25.1562C178.914 25.5625 178.828 26 178.828 26.4688C178.828 26.9375 178.914 27.3828 179.086 27.8047C179.258 28.2109 179.492 28.5703 179.789 28.8828C180.102 29.1797 180.461 29.4141 180.867 29.5859C181.273 29.7578 181.711 29.8438 182.18 29.8438H188.906C190.297 29.8438 191.602 30.1094 192.82 30.6406C194.055 31.1562 195.125 31.875 196.031 32.7969C196.953 33.7031 197.672 34.7734 198.188 36.0078C198.719 37.2266 198.984 38.5312 198.984 39.9219C198.984 41.3125 198.719 42.6172 198.188 43.8359C197.672 45.0547 196.953 46.125 196.031 47.0469C195.125 47.9531 194.055 48.6719 192.82 49.2031C191.602 49.7344 190.297 50 188.906 50H173.977V43.2734H188.906C189.375 43.2734 189.812 43.1875 190.219 43.0156C190.625 42.8438 190.977 42.6094 191.273 42.3125C191.586 42 191.828 41.6406 192 41.2344C192.172 40.8281 192.258 40.3906 192.258 39.9219C192.258 39.4531 192.172 39.0156 192 38.6094C191.828 38.2031 191.586 37.8516 191.273 37.5547C190.977 37.2422 190.625 37 190.219 36.8281C189.812 36.6562 189.375 36.5703 188.906 36.5703H182.18C180.789 36.5703 179.484 36.3047 178.266 35.7734C177.047 35.2422 175.977 34.5234 175.055 33.6172C174.148 32.6953 173.43 31.625 172.898 30.4062C172.367 29.1719 172.102 27.8594 172.102 26.4688Z"
+                fill="#084F93"
+              ></path>
+            </g>
+            <g filter="url(#filter1_d)">
+              <rect
+                x="20"
+                y="55"
+                width="222"
+                height="4"
+                rx="2"
+                fill="#F0D45A"
+              ></rect>
+            </g>
+            <g filter="url(#filter2_d)">
+              <rect
+                x="188"
+                y="7"
+                width="52"
+                height="52"
+                fill="url(#pattern0)"
+              ></rect>
+            </g>
+            <rect
+              x="91"
+              y="55"
+              width="80"
+              height="4"
+              rx="2"
+              fill="#084F93"
+            ></rect>
+            <defs>
+              <filter
+                id="filter0_d"
+                x="0.742188"
+                y="0.921875"
+                width="218.242"
+                height="74.8047"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="5"></feOffset>
+                <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.0313726 0 0 0 0 0.309804 0 0 0 0 0.576471 0 0 0 0.2 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <filter
+                id="filter1_d"
+                x="16"
+                y="55"
+                width="230"
+                height="12"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="4"></feOffset>
+                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.941176 0 0 0 0 0.831373 0 0 0 0 0.352941 0 0 0 0.3 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <filter
+                id="filter2_d"
+                x="184"
+                y="7"
+                width="60"
+                height="60"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="4"></feOffset>
+                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.941176 0 0 0 0 0.831373 0 0 0 0 0.352941 0 0 0 0.3 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0" transform="scale(0.0192308)"></use>
+              </pattern>
+              <image
+                id="image0"
+                width="52"
+                height="52"
+                xlink:href="data:image/png;base64,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"
+              ></image>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="section">
+          <div class="gameToggle">
+            <a href="#" class="active" id="gamesListBtn">
+              <span class="ru lang-text">
+                Обновить список игр
+              </span>
+
+              <span class="eng lang-text">
+                Refresh Game List
+              </span>
+            </a>
+
+            <a href="#" id="createAnonymousGameBtn">
+              <span class="ru lang-text">
+                Создать игру
+              </span>
+
+              <span class="eng lang-text">
+                Create game
+              </span>
+            </a>
+          </div>
+
+          <div class="content">
+            <table class="table table-hover" id="anonymousPlayers">
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <span class="ru lang-text">Игрок</span>
+                    <span class="eng lang-text">Player</span>
+                  </th>
+
+                  <th scope="col" class="country"></th>
+
+                  <th scope="col">
+                    <span class="ru lang-text">Рейтинг</span>
+                    <span class="eng lang-text">Rating</span>
+                  </th>
+                  <th scope="col">
+                    <span class="ru lang-text">Время партии</span>
+                    <span class="eng lang-text">Party time</span>
+                  </th>
+
+                  <th scope="col">
+                    <span class="ru lang-text">Сторона</span>
+                    <span class="eng lang-text">Side</span>
+                  </th>
+
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="player">23 Astan</td>
+                  <td>
+                    <img src="assets/img/Russia-Flag%201.png" alt="" />
+                    Ru
+                  </td>
+                  <td>1234</td>
+                  <td>8+60</td>
+                  <td>Черные</td>
+                  <td>
+                    <img
+                      src="assets/img/icons8-bishop-48%201.png"
+                      alt="bishop"
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="player">60 BOSin</td>
+                  <td>
+                    <img src="assets/img/ukraine-flag%201.png" alt="" />
+                    Ua
+                  </td>
+                  <td>3244</td>
+                  <td>15+15</td>
+                  <td>Белые</td>
+                  <td>
+                    <img
+                      src="assets/img/icons8-bishop-48%201.png"
+                      alt="bishop"
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="player">okutil 79</td>
+                  <td>
+                    <img src="assets/img/17208_anglya%201.png" alt="" />
+                    En
+                  </td>
+                  <td>1234</td>
+                  <td>8+60</td>
+                  <td>Черные</td>
+                  <td>
+                    <img
+                      src="assets/img/icons8-bishop-48%201.png"
+                      alt="bishop"
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="player">Qaty 654</td>
+                  <td>
+                    <img src="assets/img/Russia-Flag%201.png" alt="" />
+                    Ru
+                  </td>
+                  <td>3244</td>
+                  <td>15+15</td>
+                  <td>Белые</td>
+                  <td>
+                    <img
+                      src="assets/img/icons8-bishop-48%201.png"
+                      alt="bishop"
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="player">AsiKet 31</td>
+                  <td>
+                    <img
+                      src="assets/img/Saint-Barthelemy-Flag%201.png"
+                      alt=""
+                    />
+                    Fr
+                  </td>
+                  <td>1234</td>
+                  <td>8+60</td>
+                  <td>Черные</td>
+                  <td>
+                    <img
+                      src="assets/img/icons8-bishop-48%201.png"
+                      alt="bishop"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <form action="/" id="createAnonymousGame" class="createGameForm">
+              <div class="form-group">
+                <label for="PartyTime">
+                  <img src="assets/img/icons8-bishop-48%201.png" alt="bishop" />
+                  Время на партию
+                </label>
+
+                <select class="form-control" id="PartyTime">
+                  <option>1 минута</option>
+                  <option>2 минуты</option>
+                  <option>3 минуты</option>
+                  <option>5 минут</option>
+                  <option>10 минут</option>
+                  <option>15 минут</option>
+                  <option>30 минут</option>
+                  <option>1 час</option>
+                  <option>2 часа</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="AdditionalTime">
+                  <img src="assets/img/icons8-bishop-48%201.png" alt="bishop" />
+                  Добавление к ходу
+                </label>
+
+                <select class="form-control" id="AdditionalTime">
+                  <option>нет</option>
+                  <option>1 секунда</option>
+                  <option>5 секунд</option>
+                  <option>10 секунд</option>
+                  <option>15 секунд</option>
+                  <option>30 секунд</option>
+                  <option>1 минута</option>
+                </select>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <img src="assets/img/icons8-bishop-48%201.png" alt="bishop" />
+
+                <label>Сторона</label>
+
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="playersColor"
+                  id="white"
+                  value="white"
+                  checked
+                />
+
+                <label class="form-check-label white" for="white">
+                  Белые
+                </label>
+
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="playersColor"
+                  id="black"
+                  value="black"
+                />
+
+                <label class="form-check-label black" for="black">
+                  Черные
+                </label>
+              </div>
+
+              <div>
+                <img src="assets/img/icons8-bishop-48%201.png" alt="bishop" />
+
+                <label>Сила противника</label>
+
+                <div class="slider-wrapper">
+                  <div class="minLabel d-inline-block">0</div>
+
+                  <div id="minValue">0</div>
+
+                  <div id="maxValue">0</div>
+
+                  <div id="slider-range"></div>
+
+                  <div class="maxLabel d-inline-block">1000</div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Создать игру
+              </button>
+            </form>
+          </div>
+
+          <div class="banners">
+            <div class="banner banner_checkers">
+              <div class="ru lang-text">
+                Бесплатный сервер
+                <br />
+                Русских шашек
+              </div>
+
+              <div class="eng lang-text">
+                Free server
+                <br />
+                of Russian drafts
+              </div>
+
+              <a href="http://checkers.kiev.ua">checkers.kiev.ua</a>
+            </div>
+
+            <div class="banner banner_backgammon">
+              <div class="ru lang-text">
+                Бесплатный сервер
+                <br />
+                Коротких нард
+              </div>
+
+              <div class="eng lang-text">
+                Free server
+                <br />
+                of short backgammon
+              </div>
+
+              <a href="http://backgammon.kiev.ua">backgammon.kiev.ua</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner bg-chess">
+        <a href="#">
+          <img
+            src="assets/img/youtube.svg"
+            class="youtube-img"
+            alt="YouTube Logo"
+          />
+        </a>
+
+        <a href="#">
+          <img src="assets/img/logo.svg" class="logo-img" alt="UChess Logo" />
+        </a>
+
+        <a href="#">
+          Uchess.com © 2017-2020
+          <br />
+          earnchess.supp@gmail.com
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/jquery-ui.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

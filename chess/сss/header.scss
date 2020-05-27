@@ -1,0 +1,224 @@
+@import "colors";
+
+header {
+  height: 80px;
+  width: 100%;
+  background: $color-blue;
+  font-size: 17px;
+
+  @media (max-width: 540px) {
+    height: 40px;
+  }
+
+  .inner {
+    height: 100%;
+
+    .menu-toggle {
+      position: absolute;
+      padding: 1em;
+      top: 1em;
+      cursor: pointer;
+
+      @media (min-width: 767px) {
+        display: none;
+      }
+
+      @media (max-width: 540px) {
+        top: 0;
+      }
+    }
+
+    .hamburger,
+    .hamburger::before,
+    .hamburger::after {
+      content: "";
+      display: block;
+      background: #ebebd3;
+      height: 3px;
+      width: 2em;
+      border-radius: 3px;
+      -webkit-transition: all ease-in-out 350ms;
+      transition: all ease-in-out 350ms;
+    }
+
+    .hamburger::before {
+      -webkit-transform: translateY(-7px);
+      transform: translateY(-7px);
+    }
+
+    .hamburger::after {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+
+    .open .hamburger {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    .open .hamburger::before {
+      display: none;
+    }
+
+    .open .hamburger::after {
+      -webkit-transform: translateY(-1px) rotate(-90deg);
+      transform: translateY(-1px) rotate(-90deg);
+    }
+
+    ul.opening {
+      display: block;
+      height: auto;
+      margin: 0 6px 4px 50px;
+      padding-top: 80px;
+      position: absolute;
+
+      @media (max-width: 540px) {
+        padding-top: 40px;
+      }
+
+      li {
+        padding: 1.5em 4em 1.5em 3em;
+        background: $color-blue;
+        width: 145px;
+        font-size: 14px;
+
+        @media (max-width: 540px) {
+          font-size: 12px;
+        }
+      }
+
+      li:last-of-type {
+        display: none;
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+
+      @media (max-width: 1240px) {
+        justify-content: space-around;
+      }
+
+      @media (max-width: 766px) {
+        display: none;
+      }
+      @media (max-width: 766px) {
+        display: none;
+      }
+
+      li {
+        text-decoration: none;
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: $color-yellow;
+          padding: 7px 0 7px 0;
+          border-top: 2px solid transparent;
+          border-bottom: 2px solid transparent;
+        }
+
+        a:hover {
+          border-top: 2px solid $color-yellow;
+          border-bottom: 2px solid $color-yellow;
+        }
+      }
+
+      li:first-of-type {
+        margin: 0 170px 0 35px;
+
+        @media (max-width: 1240px) {
+          margin: 0;
+        }
+      }
+
+      li:last-of-type {
+        margin: 0 10px 0 100px;
+
+        @media (max-width: 1240px) {
+          margin: 0;
+        }
+
+        a:first-of-type {
+          border: 2px solid $color-yellow;
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+          padding: 7px 12px 7px 12px;
+          margin-right: -3px;
+        }
+
+        a:last-of-type {
+          border: 2px solid $color-yellow;
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+          padding: 7px 12px 7px 12px;
+          margin-left: -3px;
+        }
+
+        a:hover {
+          background: $color-yellow;
+          color: $color-blue;
+        }
+      }
+    }
+
+    p {
+      height: 100%;
+      position: absolute;
+      display: block;
+      width: auto;
+      margin: 0 10px 0 100px;
+      right: 50px;
+      top: 30px;
+
+      @media (max-width: 540px) {
+        margin: 12px 0 0 0;
+        right: 20px;
+        font-size: 12px;
+        top: 0;
+      }
+
+      @media (min-width: 767px) {
+        display: none;
+      }
+
+      a:first-of-type {
+        border: 2px solid $color-yellow;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding: 7px 12px 7px 12px;
+        margin-right: -3px;
+        text-decoration: none;
+        color: $color-yellow;
+
+        @media (max-width: 540px) {
+          padding: 0 11px 0 11px;
+        }
+      }
+
+      a:last-of-type {
+        border: 2px solid $color-yellow;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 7px 12px 7px 12px;
+        margin-left: -3px;
+        text-decoration: none;
+        color: $color-yellow;
+
+        @media (max-width: 540px) {
+          padding: 0 11px 0 11px;
+        }
+      }
+
+      a:hover {
+        background: $color-yellow;
+        color: $color-blue;
+      }
+    }
+  }
+}

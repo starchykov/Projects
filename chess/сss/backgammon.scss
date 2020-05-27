@@ -1,0 +1,61 @@
+@import "colors";
+
+.background {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/img/chess.png") center top;
+
+  .fon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info {
+    color: $color-yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    h1 {
+      width: 100%;
+      font-size: 60px;
+
+      @media (max-width: 540px) {
+        font-size: 40px;
+      }
+
+      @media (max-width: 425px) {
+        font-size: 30px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-yellow;
+      font-size: 30px;
+      border-top: 2px solid $color-blue;
+      border-bottom: 2px solid $color-blue;
+
+      @media (max-width: 540px) {
+        font-size: 25px;
+      }
+
+      @media (max-width: 425px) {
+        font-size: 20px;
+      }
+    }
+
+    div {
+      width: 100%;
+
+      img {
+        height: 200px;
+      }
+    }
+  }
+}

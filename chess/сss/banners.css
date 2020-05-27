@@ -1,0 +1,65 @@
+.banners {
+  height: 310px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banners .banner {
+  margin: 0 40px 0 40px;
+  background: #011426;
+  width: 200px;
+  height: 110px;
+  border: 1px solid #084f93;
+  box-sizing: border-box;
+  box-shadow: 0 0 50px rgba(8, 79, 147, 0.5);
+  border-radius: 20px;
+  padding: 20px 0;
+  color: #f0d45a;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+@media (max-width: 540px) {
+  .banners .banner {
+    margin: 0 10px 0 10px;
+    width: 133px;
+    font-size: 12px;
+  }
+}
+.banners .banner_checkers {
+  background: #011426 url("../assets/img/banner-checkers-sm.png") no-repeat -13%
+    50%;
+}
+.banners .banner_backgammon {
+  background: #011426 url("../assets/img/banner-backgammon-sm.png") no-repeat -8%
+    50%;
+}
+.banners .banner div:nth-child(2) {
+  position: relative;
+}
+.banners .banner a {
+  display: inline-block;
+  margin-top: 7px;
+  border: 1px solid #084f93;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  color: #f0d45a;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+@media (max-width: 540px) {
+  .banners .banner a {
+    font-size: 12px;
+    width: 120px;
+  }
+}
+.banners .banner a:hover {
+  text-decoration: none;
+  text-shadow: 0 0 1px #f0d45a;
+}
+
+/*# sourceMappingURL=banners.css.map */
