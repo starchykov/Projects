@@ -11,28 +11,32 @@ body {
 
       .content {
         display: inline-grid;
-        grid-gap: 12px;
+        grid-gap: 50px;
         grid-template-columns: repeat(6, auto);
         grid-auto-flow: row;
 
         .contentItem {
-          width: 125px;
+          width: 140px;
 
 
           a {
-            text-transform: uppercase;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-wrap: wrap;
             padding: 0 0 10px 0;
+            height: 100%;
             font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-underline: none;
             color: #182848;
             cursor: pointer;
             text-align: center;
             position: relative;
             transition: all 0.3s;
-            text-decoration: none;
-            text-underline: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+
 
             &::before {
               content: "";
@@ -59,6 +63,12 @@ body {
                 bottom: -10px;
                 transition: all 0.3s;
               }
+
+            }
+
+            img {
+              width: 100%;
+              margin: 0 0 20px 0;
 
             }
 
