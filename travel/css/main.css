@@ -68,6 +68,7 @@ body main .row .contentTop button:last-of-type {
   margin: 0 0 0 15px;
   background: #ffc704;
   border: 2px solid #ffc704;
+  box-shadow: 0 0.5rem 1rem rgba(255, 197, 4, 0.62);
 }
 body main .row .contentBottom h5 {
   color: white;
@@ -95,6 +96,7 @@ body main .row .contentBottom button:last-of-type {
   margin: 0 0 0 15px;
   background: #ffc704;
   border: 2px solid #ffc704;
+  box-shadow: 0 0.5rem 1rem rgba(255, 197, 4, 0.62);
 }
 body main .row .contentBottom .carousel-control-prev i {
   font-size: 45px;
