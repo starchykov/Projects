@@ -1,0 +1,162 @@
+body {
+  //background-image: url("../img/krylo.jpg");
+  //background-size: cover;
+
+  .container-fluid {
+    padding: 0 5% 0;
+  }
+
+  header {
+    .navbar {
+      padding: 50px 0 0 0;
+
+      .navbar-brand {
+        img {
+          height: 35px;
+        }
+      }
+
+      #navbar {
+        justify-content: space-between;
+
+        .nav-link {
+          font-weight: bold;
+          font-size: 18px;
+          color: white;
+          text-decoration: none;
+          margin: 0 40px;
+        }
+      }
+    }
+  }
+
+  main {
+
+    .row {
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .contentTop {
+        position: relative;
+
+        .left {
+          width: auto;
+          transform: rotateZ(-90deg);
+          letter-spacing: 10px;
+          position: absolute;
+          left: -262px;
+          top: 117px;
+        }
+
+        .top {
+          width: auto;
+          letter-spacing: 10px;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        h1 {
+          font-size: 125px;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 50px;
+        }
+
+        p {
+          font-size: 22px;
+          color: white;
+          margin-bottom: 50px;
+        }
+
+        button {
+          width: 170px;
+          background: transparent;
+          height: 50px;
+          border-radius: 50px;
+          border: 3px solid white;
+          color: white;
+          font-size: 18px;
+
+          &:first-of-type {
+            margin: 0 15px 0 0;
+          }
+
+          &:last-of-type {
+            margin: 0 0 0 15px;
+            background: #ffc704;
+            border: 2px solid #ffc704;
+          }
+        }
+      }
+
+      .contentBottom {
+
+        h5 {
+          color: white;
+          width: 100%;
+          text-align: justify;
+          margin-bottom: 20px;
+        }
+
+        p {
+          color: white;
+          margin-bottom: 20px;
+        }
+
+        button {
+          width: 100px;
+          background: transparent;
+          height: 40px;
+          border-radius: 50px;
+          border: 3px solid white;
+          color: white;
+          font-size: 12px;
+
+          &:first-of-type {
+            margin: 0 15px 0 0;
+          }
+
+          &:last-of-type {
+            margin: 0 0 0 15px;
+            background: #ffc704;
+            border: 2px solid #ffc704;
+          }
+        }
+
+        .carousel-control-prev {
+          i {
+            font-size: 45px;
+          }
+        }
+
+        .carousel-control-next {
+          i {
+            font-size: 45px;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .follow {
+    position: fixed;
+    top: 35%;
+    right: 50px;
+    height: 25%;
+
+    a {
+      display: block;
+      font-family: FontAwesome, sans-serif;
+      font-size: 30px;
+      color: white;
+      margin-bottom: 70px;
+
+    }
+  }
+
+}
