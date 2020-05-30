@@ -445,13 +445,18 @@
   display: flex;
   justify-content: center;
 }
-#main .first .container #mySlider ol li {
-  height: 12px;
-  width: 12px;
+#main .first .container #mySlider ol div {
+  height: 8px;
+  width: 8px;
   border-radius: 50%;
   background-color: #ff8c21;
   margin-right: 8px;
   margin-left: 8px;
+  transition: all 0.3s;
+}
+#main .first .container #mySlider ol .active {
+  width: 24px;
+  border-radius: 4px;
 }
 #main .first .container #mySlider .carousel-inner .bgImage {
   position: absolute;
@@ -522,6 +527,18 @@
   bottom: 0;
   padding-left: 70px;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  #main .first .container .follow p, #main .first .container .follow a {
+    display: none;
+  }
+  #main .first .container .follow span a {
+    display: block;
+  }
 }
 #main .first .container .follow p {
   margin-top: 0;
@@ -1508,7 +1525,9 @@
   opacity: 1;
   display: none;
   overflow: hidden;
-  z-index: 500;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
 }
 #modal-content #newsletter-popup {
   margin: 10% auto;
@@ -1521,6 +1540,7 @@
 @media (max-width: 768px) {
   #modal-content #newsletter-popup {
     margin: 35% auto;
+    width: 95%;
   }
 }
 #modal-content #newsletter-popup .card-body {
@@ -1532,6 +1552,12 @@
 @media (max-width: 768px) {
   #modal-content #newsletter-popup .card-body .col-7 {
     max-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  #modal-content #newsletter-popup .card-body .col-7 {
+    position: absolute;
+    z-index: 15;
   }
 }
 #modal-content #newsletter-popup .card-body .col-7 h1, #modal-content #newsletter-popup .card-body .col-7 p {
@@ -2395,23 +2421,23 @@
   box-shadow: -8px 5px 30px 0 rgba(0, 0, 0, 0.2);
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(1) {
-  transform: rotate(7deg) translate(-111px, -170px) scale(2);
+  transform: rotate(5deg) translate(-111px, -170px) scale(2);
   transition-delay: 0.4s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(2) {
-  transform: rotate(6deg) translate(-152px, 15px) scale(1.8);
+  transform: rotate(-4deg) translate(-152px, 15px) scale(1.8);
   transition-delay: 0.45s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(3) {
-  transform: rotate(-6deg) translate(76px, 95px) scale(1.7);
+  transform: rotate(-3deg) translate(76px, 95px) scale(1.7);
   transition-delay: 0.55s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(4) {
-  transform: rotate(6deg) translate(300px, 60px) scale(1.5);
+  transform: rotate(-6deg) translate(300px, 60px) scale(1.5);
   transition-delay: 0.5s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(5) {
-  transform: rotate(10deg) translate(269px, -160px) scale(2);
+  transform: rotate(7deg) translate(269px, -160px) scale(2);
   transition-delay: 0.6s;
 }
 @keyframes shake {
