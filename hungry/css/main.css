@@ -3,17 +3,19 @@ body {
   background: #313540;
   background: linear-gradient(90deg, #313540 0%, #161616 35%);
   color: white;
+  overflow: hidden;
 }
 body .plate {
   position: absolute;
-  height: 100vh;
-  right: 0;
+  height: 100%;
+  right: 120px;
 }
 body .container-fluid {
   padding: 0 5% 0;
 }
 body header {
   width: 100%;
+  position: absolute;
 }
 body header .navbar {
   height: 10vh;
@@ -33,16 +35,21 @@ body header .navbar #navbar .nav-link {
   margin: 0 40px;
 }
 body main {
-  height: 90vh;
+  height: 100vh;
+  background-image: url(../img/plate.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   align-items: center;
 }
 body main .contentTop {
   color: white;
+  font-weight: bold;
   font-family: "Seconda Round", sans-serif;
 }
 body main .contentTop h1 {
-  font-size: 110px;
+  font-size: 150px;
 }
 body main .contentTop h2 {
   font-style: italic;
@@ -64,7 +71,8 @@ body main .contentTop button {
   font-weight: 500;
 }
 body main .contentBottom {
-  margin: 70px 0 0 0;
+  position: absolute;
+  bottom: 30px;
 }
 body main .contentBottom .slider .sliderItem {
   display: flex;
@@ -85,6 +93,71 @@ body main .contentBottom .slider .sliderItem p {
   float: right;
   font-size: 15px;
   width: 52%;
+  text-align: justify;
+}
+body main .contentBottom .slider .contr {
+  color: black;
+  background: #ffbf00;
+  width: 40px;
+  font-size: 28px;
+}
+body main .contentBottom .slider .contr:nth-of-type(1) {
+  left: -50px;
+}
+body main .contentBottom .slider .contr:nth-of-type(2) {
+  right: -50px;
+}
+body main .contentBR {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .contentBR h5 {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+body main .contentBR span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin-right: 5px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+body main .contentBR span::before {
+  content: "";
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  border: 2px solid white;
+}
+body main .contentBR p {
+  width: 80%;
+  display: block;
+  color: black;
+  font-weight: lighter;
+}
+body .social-links {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  width: 50px;
+  text-align: center;
+  height: 270px;
+  border-radius: 13px 0 0 13px;
+  background: #ffffff;
+}
+body .social-links a {
+  display: block;
+  font-family: FontAwesome, sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 70px;
 }
 
 /*# sourceMappingURL=main.css.map */
