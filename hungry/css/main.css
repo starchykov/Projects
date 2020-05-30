@@ -5,11 +5,6 @@ body {
   color: white;
   overflow: hidden;
 }
-body .plate {
-  position: absolute;
-  height: 100%;
-  right: 120px;
-}
 body .container-fluid {
   padding: 0 5% 0;
 }
@@ -157,7 +152,14 @@ body .social-links a {
   font-family: FontAwesome, sans-serif;
   font-size: 30px;
   color: black;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  text-underline: none;
+  outline: none;
+  text-decoration: none;
+}
+body .social-links a:hover {
+  color: #ffbf00;
+  text-underline: none;
 }
 
 /*# sourceMappingURL=main.css.map */
