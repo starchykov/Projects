@@ -1,0 +1,122 @@
+@import url("../fonts/Seconda/stylesheet.css");
+
+body {
+  background: rgb(49, 53, 64);
+  background: linear-gradient(90deg, rgba(49, 53, 64, 1) 0%, rgba(22, 22, 22, 1) 35%);
+  color: white;
+
+  .plate {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+  }
+
+  .container-fluid {
+    padding: 0 5% 0;
+  }
+
+  header {
+    width: 100%;
+
+    .navbar {
+      height: 10vh;
+      padding: 50px 0 0 0;
+
+      .navbar-brand {
+        a {
+          color: #f3c341;
+          font-size: 27px;
+          font-weight: 700;
+          margin-right: 5rem;
+        }
+      }
+
+      #navbar {
+        //justify-content: space-between;
+
+        .nav-link {
+          font-weight: 500;
+          font-size: 18px;
+          color: #efc137;
+          text-decoration: none;
+          margin: 0 40px;
+        }
+      }
+    }
+  }
+
+  main {
+    height: 90vh;
+    //background-image: url(../img/plate.png);
+    //background-position: right;
+    //background-repeat: no-repeat;
+    //background-size: contain;
+    display: flex;
+    align-items: center;
+
+    .contentTop {
+      color: white;
+      font-family: "Seconda Round", sans-serif;
+
+      h1 {
+        font-size: 110px;
+      }
+
+      h2 {
+        font-style: italic;
+      }
+
+      h3 {
+        color: #ffbe00;
+        font-weight: 400;
+        font-style: italic;
+
+      }
+
+      button {
+        width: 170px;
+        background: transparent;
+        height: 50px;
+        border-radius: 50px;
+        border: 3px solid white;
+        color: white;
+        font-size: 18px;
+        margin: 51px 0 0 0;
+        font-weight: 500;
+      }
+    }
+
+    .contentBottom {
+      margin: 70px 0 0 0;
+
+      .slider {
+
+
+        .sliderItem {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: flex-end;
+
+          img {
+            float: left;
+            position: absolute;
+            left: 0;
+          }
+
+          h5 {
+            float: right;
+            width: 52%;
+          }
+
+          p {
+            float: right;
+            font-size: 15px;
+            width: 52%;
+          }
+        }
+      }
+    }
+  }
+
+}

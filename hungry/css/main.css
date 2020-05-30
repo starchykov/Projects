@@ -1,0 +1,90 @@
+@import url("../fonts/Seconda/stylesheet.css");
+body {
+  background: #313540;
+  background: linear-gradient(90deg, #313540 0%, #161616 35%);
+  color: white;
+}
+body .plate {
+  position: absolute;
+  height: 100vh;
+  right: 0;
+}
+body .container-fluid {
+  padding: 0 5% 0;
+}
+body header {
+  width: 100%;
+}
+body header .navbar {
+  height: 10vh;
+  padding: 50px 0 0 0;
+}
+body header .navbar .navbar-brand a {
+  color: #f3c341;
+  font-size: 27px;
+  font-weight: 700;
+  margin-right: 5rem;
+}
+body header .navbar #navbar .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  color: #efc137;
+  text-decoration: none;
+  margin: 0 40px;
+}
+body main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+body main .contentTop {
+  color: white;
+  font-family: "Seconda Round", sans-serif;
+}
+body main .contentTop h1 {
+  font-size: 110px;
+}
+body main .contentTop h2 {
+  font-style: italic;
+}
+body main .contentTop h3 {
+  color: #ffbe00;
+  font-weight: 400;
+  font-style: italic;
+}
+body main .contentTop button {
+  width: 170px;
+  background: transparent;
+  height: 50px;
+  border-radius: 50px;
+  border: 3px solid white;
+  color: white;
+  font-size: 18px;
+  margin: 51px 0 0 0;
+  font-weight: 500;
+}
+body main .contentBottom {
+  margin: 70px 0 0 0;
+}
+body main .contentBottom .slider .sliderItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+body main .contentBottom .slider .sliderItem img {
+  float: left;
+  position: absolute;
+  left: 0;
+}
+body main .contentBottom .slider .sliderItem h5 {
+  float: right;
+  width: 52%;
+}
+body main .contentBottom .slider .sliderItem p {
+  float: right;
+  font-size: 15px;
+  width: 52%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-BoldItalic.eot');
+    src: local('Seconda Round Bold Italic'), local('SecondaRound-BoldItalic'),
+        url('SecondaRound-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-BoldItalic.woff2') format('woff2'),
+        url('SecondaRound-BoldItalic.woff') format('woff'),
+        url('SecondaRound-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline3Fill.eot');
+    src: local('Seconda Round Outline 3 Fill'), local('SecondaRound-Outline3Fill'),
+        url('SecondaRound-Outline3Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline3Fill.woff2') format('woff2'),
+        url('SecondaRound-Outline3Fill.woff') format('woff'),
+        url('SecondaRound-Outline3Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline3.eot');
+    src: local('Seconda Round Outline 3'), local('SecondaRound-Outline3'),
+        url('SecondaRound-Outline3.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline3.woff2') format('woff2'),
+        url('SecondaRound-Outline3.woff') format('woff'),
+        url('SecondaRound-Outline3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline2Fill.eot');
+    src: local('Seconda Round Outline 2 Fill'), local('SecondaRound-Outline2Fill'),
+        url('SecondaRound-Outline2Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline2Fill.woff2') format('woff2'),
+        url('SecondaRound-Outline2Fill.woff') format('woff'),
+        url('SecondaRound-Outline2Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow1.eot');
+    src: local('Seconda Round Shadow 1'), local('SecondaRound-Shadow1'),
+        url('SecondaRound-Shadow1.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow1.woff2') format('woff2'),
+        url('SecondaRound-Shadow1.woff') format('woff'),
+        url('SecondaRound-Shadow1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow2Fill.eot');
+    src: local('Seconda Round Shadow 2 Fill'), local('SecondaRound-Shadow2Fill'),
+        url('SecondaRound-Shadow2Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow2Fill.woff2') format('woff2'),
+        url('SecondaRound-Shadow2Fill.woff') format('woff'),
+        url('SecondaRound-Shadow2Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline4.eot');
+    src: local('Seconda Round Outline 4'), local('SecondaRound-Outline4'),
+        url('SecondaRound-Outline4.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline4.woff2') format('woff2'),
+        url('SecondaRound-Outline4.woff') format('woff'),
+        url('SecondaRound-Outline4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Bold.eot');
+    src: local('Seconda Round Bold'), local('SecondaRound-Bold'),
+        url('SecondaRound-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Bold.woff2') format('woff2'),
+        url('SecondaRound-Bold.woff') format('woff'),
+        url('SecondaRound-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-MediumItalic.eot');
+    src: local('Seconda Round Medium Italic'), local('SecondaRound-MediumItalic'),
+        url('SecondaRound-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-MediumItalic.woff2') format('woff2'),
+        url('SecondaRound-MediumItalic.woff') format('woff'),
+        url('SecondaRound-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Medium.eot');
+    src: local('Seconda Round Medium'), local('SecondaRound-Medium'),
+        url('SecondaRound-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Medium.woff2') format('woff2'),
+        url('SecondaRound-Medium.woff') format('woff'),
+        url('SecondaRound-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline2.eot');
+    src: local('Seconda Round Outline 2'), local('SecondaRound-Outline2'),
+        url('SecondaRound-Outline2.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline2.woff2') format('woff2'),
+        url('SecondaRound-Outline2.woff') format('woff'),
+        url('SecondaRound-Outline2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-HeavyItalic.eot');
+    src: local('Seconda Round Heavy Italic'), local('SecondaRound-HeavyItalic'),
+        url('SecondaRound-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-HeavyItalic.woff2') format('woff2'),
+        url('SecondaRound-HeavyItalic.woff') format('woff'),
+        url('SecondaRound-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow1Fill.eot');
+    src: local('Seconda Round Shadow 1 Fill'), local('SecondaRound-Shadow1Fill'),
+        url('SecondaRound-Shadow1Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow1Fill.woff2') format('woff2'),
+        url('SecondaRound-Shadow1Fill.woff') format('woff'),
+        url('SecondaRound-Shadow1Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Regular.eot');
+    src: local('Seconda Round Regular'), local('SecondaRound-Regular'),
+        url('SecondaRound-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Regular.woff2') format('woff2'),
+        url('SecondaRound-Regular.woff') format('woff'),
+        url('SecondaRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-DemiItalic.eot');
+    src: local('Seconda Round Demi Italic'), local('SecondaRound-DemiItalic'),
+        url('SecondaRound-DemiItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-DemiItalic.woff2') format('woff2'),
+        url('SecondaRound-DemiItalic.woff') format('woff'),
+        url('SecondaRound-DemiItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow3Fill.eot');
+    src: local('Seconda Round Shadow 3 Fill'), local('SecondaRound-Shadow3Fill'),
+        url('SecondaRound-Shadow3Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow3Fill.woff2') format('woff2'),
+        url('SecondaRound-Shadow3Fill.woff') format('woff'),
+        url('SecondaRound-Shadow3Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-LightItalic.eot');
+    src: local('Seconda Round Light Italic'), local('SecondaRound-LightItalic'),
+        url('SecondaRound-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-LightItalic.woff2') format('woff2'),
+        url('SecondaRound-LightItalic.woff') format('woff'),
+        url('SecondaRound-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-BlackItalic.eot');
+    src: local('Seconda Round Black Italic'), local('SecondaRound-BlackItalic'),
+        url('SecondaRound-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-BlackItalic.woff2') format('woff2'),
+        url('SecondaRound-BlackItalic.woff') format('woff'),
+        url('SecondaRound-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Italic.eot');
+    src: local('Seconda Round Italic'), local('SecondaRound-Italic'),
+        url('SecondaRound-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Italic.woff2') format('woff2'),
+        url('SecondaRound-Italic.woff') format('woff'),
+        url('SecondaRound-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow2.eot');
+    src: local('Seconda Round Shadow 2'), local('SecondaRound-Shadow2'),
+        url('SecondaRound-Shadow2.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow2.woff2') format('woff2'),
+        url('SecondaRound-Shadow2.woff') format('woff'),
+        url('SecondaRound-Shadow2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow4.eot');
+    src: local('Seconda Round Shadow 4'), local('SecondaRound-Shadow4'),
+        url('SecondaRound-Shadow4.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow4.woff2') format('woff2'),
+        url('SecondaRound-Shadow4.woff') format('woff'),
+        url('SecondaRound-Shadow4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline4Fill.eot');
+    src: local('Seconda Round Outline 4 Fill'), local('SecondaRound-Outline4Fill'),
+        url('SecondaRound-Outline4Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline4Fill.woff2') format('woff2'),
+        url('SecondaRound-Outline4Fill.woff') format('woff'),
+        url('SecondaRound-Outline4Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline1Fill.eot');
+    src: local('Seconda Round Outline 1 Fill'), local('SecondaRound-Outline1Fill'),
+        url('SecondaRound-Outline1Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline1Fill.woff2') format('woff2'),
+        url('SecondaRound-Outline1Fill.woff') format('woff'),
+        url('SecondaRound-Outline1Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Black.eot');
+    src: local('Seconda Round Black'), local('SecondaRound-Black'),
+        url('SecondaRound-Black.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Black.woff2') format('woff2'),
+        url('SecondaRound-Black.woff') format('woff'),
+        url('SecondaRound-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Outline1.eot');
+    src: local('Seconda Round Outline 1'), local('SecondaRound-Outline1'),
+        url('SecondaRound-Outline1.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Outline1.woff2') format('woff2'),
+        url('SecondaRound-Outline1.woff') format('woff'),
+        url('SecondaRound-Outline1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-ThinItalic.eot');
+    src: local('Seconda Round Thin Italic'), local('SecondaRound-ThinItalic'),
+        url('SecondaRound-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-ThinItalic.woff2') format('woff2'),
+        url('SecondaRound-ThinItalic.woff') format('woff'),
+        url('SecondaRound-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Demi.eot');
+    src: local('Seconda Round Demi'), local('SecondaRound-Demi'),
+        url('SecondaRound-Demi.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Demi.woff2') format('woff2'),
+        url('SecondaRound-Demi.woff') format('woff'),
+        url('SecondaRound-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Heavy.eot');
+    src: local('Seconda Round Heavy'), local('SecondaRound-Heavy'),
+        url('SecondaRound-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Heavy.woff2') format('woff2'),
+        url('SecondaRound-Heavy.woff') format('woff'),
+        url('SecondaRound-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow4Fill.eot');
+    src: local('Seconda Round Shadow 4 Fill'), local('SecondaRound-Shadow4Fill'),
+        url('SecondaRound-Shadow4Fill.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow4Fill.woff2') format('woff2'),
+        url('SecondaRound-Shadow4Fill.woff') format('woff'),
+        url('SecondaRound-Shadow4Fill.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Shadow3.eot');
+    src: local('Seconda Round Shadow 3'), local('SecondaRound-Shadow3'),
+        url('SecondaRound-Shadow3.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Shadow3.woff2') format('woff2'),
+        url('SecondaRound-Shadow3.woff') format('woff'),
+        url('SecondaRound-Shadow3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Thin.eot');
+    src: local('Seconda Round Thin'), local('SecondaRound-Thin'),
+        url('SecondaRound-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Thin.woff2') format('woff2'),
+        url('SecondaRound-Thin.woff') format('woff'),
+        url('SecondaRound-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seconda Round';
+    src: url('SecondaRound-Light.eot');
+    src: local('Seconda Round Light'), local('SecondaRound-Light'),
+        url('SecondaRound-Light.eot?#iefix') format('embedded-opentype'),
+        url('SecondaRound-Light.woff2') format('woff2'),
+        url('SecondaRound-Light.woff') format('woff'),
+        url('SecondaRound-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
