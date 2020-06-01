@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
   *-webkit-box-sizing: border-box;
@@ -9,34 +10,35 @@ body {
       height: 100vh;
       flex-wrap: wrap;
 
-    .topLogo {
-      svg {
-        width: 300px;
+      .topLogo {
+        svg {
+          width: 300px;
+          font-family: myriad-pro, sans-serif;
 
 
-        &:nth-of-type(1) {
-          filter: drop-shadow(2px 4px 4px #88a5bf99);
+          &:nth-of-type(1) {
+            filter: drop-shadow(2px 4px 4px #88a5bf99);
+          }
+
+          &:nth-of-type(2) {
+            position: absolute;
+            filter: drop-shadow(-3px -2px 3px #ffffff99);
+            left: 15px;
+          }
         }
 
-        &:nth-of-type(2) {
+        a {
           position: absolute;
-          filter: drop-shadow(-3px -2px 3px #ffffff99);
-          left: 15px;
+          width: max-content;
+          bottom: 40px;
+          left: 99px;
+          font-weight: 500;
+          color: gray;
+          font-size: 13px;
+          transform: rotate(-90deg);
+          text-shadow: 4px 2px 6px rgba(136, 165, 191, 0.48), -4px -2px 6px #FFFFFF;
         }
       }
-
-      a {
-        position: absolute;
-        width: max-content;
-        bottom: 40px;
-        left: 99px;
-        font-weight: 500;
-        color: gray;
-        font-size: 13px;
-        transform: rotate(-90deg);
-        text-shadow: 4px 2px 6px rgba(136, 165, 191, 0.48), -4px -2px 6px #FFFFFF;
-      }
-    }
 
       .content {
         display: flex;
@@ -44,8 +46,16 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
 
+
         .contentItem {
           width: 140px;
+          //padding: 7px;
+          //
+          //&:hover {
+          //  box-shadow: -2px -4px 6px 0px rgba(255, 255, 255, 0.6), 2px 4px 6px 0px rgba(136, 165, 191, 0.6);
+          //  padding: 7px;
+          //  border-radius: 12px;
+          //}
 
 
           a {

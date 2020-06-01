@@ -10,6 +10,7 @@ body section .container {
 }
 body section .container .topLogo svg {
   width: 300px;
+  font-family: myriad-pro, sans-serif;
 }
 body section .container .topLogo svg:nth-of-type(1) {
   filter: drop-shadow(2px 4px 4px #88a5bf99);
