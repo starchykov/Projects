@@ -95,10 +95,6 @@ html {
 }
 
 
-.ytp-chrome-top {
-  display: none !important;
-}
-
 //----------------------header-----------------------
 .top-block {
   background: white;
@@ -862,6 +858,33 @@ html {
 
       }
 
+      .youtube {
+        background: none !important;
+        border: none;
+
+        .youtubeVids {
+          padding-bottom: 20px;
+
+          iframe {
+            border-radius: 4px;
+            color: transparent !important;
+
+            a {
+              display: none !important;
+            }
+
+          }
+
+          .card-body {
+            padding-bottom: 0;
+
+            h5 {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+
       .portfolio {
         .col-md-4 {
           overflow: hidden;
@@ -1185,6 +1208,7 @@ html {
 
                 .textCard {
                   height: 92%;
+                  background: white;
 
                   p {
                     overflow: scroll;
