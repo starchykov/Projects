@@ -672,4 +672,5 @@
   function hideVideo(i) {
     $(".video")[i].pause();
   }
+
 })(jQuery);

@@ -94,6 +94,11 @@ html {
   display: block;
 }
 
+
+.ytp-chrome-top {
+  display: none !important;
+}
+
 //----------------------header-----------------------
 .top-block {
   background: white;
@@ -853,6 +858,8 @@ html {
             }
           }
         }
+
+
       }
 
       .portfolio {
