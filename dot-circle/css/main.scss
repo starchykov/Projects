@@ -601,6 +601,7 @@ html {
         justify-content: flex-start;
         flex-wrap: wrap;
         position: absolute;
+        z-index: 12;
 
         @media (max-width: 1024px) {
           p, a {
@@ -6366,7 +6367,7 @@ footer {
         button {
           height: max-content;
 
-          a {
+          span {
             color: #3c3b3a;
           }
         }
