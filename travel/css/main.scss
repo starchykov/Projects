@@ -40,7 +40,6 @@ body {
       align-items: center;
       justify-content: center;
       width: 100%;
-      padding: 20px 0 20px;
 
       .contentTop {
         position: relative;
@@ -121,15 +120,19 @@ body {
           font-size: 12px;
 
           &:first-of-type {
-            margin: 0 15px 0 0;
+            margin: 0 10px 0 0;
           }
 
           &:last-of-type {
-            margin: 0 0 0 15px;
+            margin: 0 0 0 10px;
             background: #ffc704;
             border: 2px solid #ffc704;
             box-shadow: 0 .5rem 1rem rgba(255, 197, 4, 0.62);
           }
+        }
+
+        .slideRow {
+          padding: 20px;
         }
 
         .carousel-control-prev {

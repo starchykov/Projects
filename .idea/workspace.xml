@@ -3,28 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c690754b-8b30-4fc3-a5c0-f037cbbaa63d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dot-circle/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dot-circle/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dot-circle/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dot-circle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/FAQ.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/better.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/business.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/consulting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/dream_team.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/individual-consulting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/intuitiveManagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/life_management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/motivationLecture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/open.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/power.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/selfDev.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/stressControl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/timeManagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/transformation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dot-circle/pages/vebinars.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/travel/css/main.scss" afterDir="false" />
@@ -1375,8 +1353,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/travel/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+                <state relative-caret-position="51">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
@@ -1396,6 +1374,7 @@
                     <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1442,6 +1421,9 @@
                     <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#11921#11929#1" />
+                    <element signature="e#11949#11957#1" />
+                    <element signature="e#11977#11985#1" />
                     <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
@@ -1458,7 +1440,7 @@
             <entry file="file://$PROJECT_DIR$/travel/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="6" selection-start-column="6" selection-end-column="6" />
+                  <caret column="5" selection-start-column="5" selection-end-column="5" />
                   <folding>
                     <element signature="e#46#84#0" />
                     <element signature="e#142#508#0" />
@@ -1483,6 +1465,7 @@
                     <element signature="e#2031#2521#0" />
                     <element signature="e#2260#2305#0" />
                     <element signature="e#2332#2511#0" />
+                    <element signature="e#2602#2624#0" />
                     <element signature="e#2554#2620#0" />
                     <element signature="e#2568#2610#0" />
                     <element signature="e#2653#2719#0" />
@@ -1574,8 +1557,8 @@
         <option value="$PROJECT_DIR$/dot-circle/pages/transformation.html" />
         <option value="$PROJECT_DIR$/dot-circle/pages/vebinars.html" />
         <option value="$PROJECT_DIR$/dot-circle/pages/vebinars.scss" />
-        <option value="$PROJECT_DIR$/travel/css/main.scss" />
         <option value="$PROJECT_DIR$/travel/index.html" />
+        <option value="$PROJECT_DIR$/travel/css/main.scss" />
       </list>
     </option>
   </component>
@@ -1686,7 +1669,7 @@
       <workItem from="1591188083169" duration="80000" />
       <workItem from="1591209376627" duration="196000" />
       <workItem from="1596030802920" duration="3144000" />
-      <workItem from="1596059795732" duration="1794000" />
+      <workItem from="1596059795732" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590160799392</created>
@@ -1884,11 +1867,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591105349750</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="3">
+      <created>1596061749296</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1596061749296</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76400000" />
+    <option name="totallyTimeSpent" value="76806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1931,7 +1921,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chess/main.js">
@@ -6623,48 +6614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#84#0" />
-            <element signature="e#142#508#0" />
-            <element signature="e#156#504#0" />
-            <element signature="e#206#263#0" />
-            <element signature="e#220#255#0" />
-            <element signature="e#279#498#0" />
-            <element signature="e#340#490#0" />
-            <element signature="e#517#2739#0" />
-            <element signature="e#529#2734#0" />
-            <element signature="e#649#1779#0" />
-            <element signature="e#694#874#0" />
-            <element signature="e#889#1023#0" />
-            <element signature="e#1036#1159#0" />
-            <element signature="e#1171#1264#0" />
-            <element signature="e#1281#1771#0" />
-            <element signature="e#1510#1555#0" />
-            <element signature="e#1582#1761#0" />
-            <element signature="e#1802#2728#0" />
-            <element signature="e#1816#1936#0" />
-            <element signature="e#1948#2014#0" />
-            <element signature="e#2031#2521#0" />
-            <element signature="e#2260#2305#0" />
-            <element signature="e#2332#2511#0" />
-            <element signature="e#2554#2620#0" />
-            <element signature="e#2568#2610#0" />
-            <element signature="e#2653#2719#0" />
-            <element signature="e#2667#2709#0" />
-            <element signature="e#2751#2977#0" />
-            <element signature="e#2829#2973#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        <state relative-caret-position="51">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
@@ -6684,6 +6637,7 @@
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -6730,9 +6684,51 @@
             <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#11921#11929#1" />
+            <element signature="e#11949#11957#1" />
+            <element signature="e#11977#11985#1" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#84#0" />
+            <element signature="e#142#508#0" />
+            <element signature="e#156#504#0" />
+            <element signature="e#206#263#0" />
+            <element signature="e#220#255#0" />
+            <element signature="e#279#498#0" />
+            <element signature="e#340#490#0" />
+            <element signature="e#517#2739#0" />
+            <element signature="e#529#2734#0" />
+            <element signature="e#649#1779#0" />
+            <element signature="e#694#874#0" />
+            <element signature="e#889#1023#0" />
+            <element signature="e#1036#1159#0" />
+            <element signature="e#1171#1264#0" />
+            <element signature="e#1281#1771#0" />
+            <element signature="e#1510#1555#0" />
+            <element signature="e#1582#1761#0" />
+            <element signature="e#1802#2728#0" />
+            <element signature="e#1816#1936#0" />
+            <element signature="e#1948#2014#0" />
+            <element signature="e#2031#2521#0" />
+            <element signature="e#2260#2305#0" />
+            <element signature="e#2332#2511#0" />
+            <element signature="e#2602#2624#0" />
+            <element signature="e#2554#2620#0" />
+            <element signature="e#2568#2610#0" />
+            <element signature="e#2653#2719#0" />
+            <element signature="e#2667#2709#0" />
+            <element signature="e#2751#2977#0" />
+            <element signature="e#2829#2973#0" />
           </folding>
         </state>
       </provider>
