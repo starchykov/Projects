@@ -1549,7 +1549,7 @@
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  z-index: 9999;
+  z-index: 9998;
 }
 #modal-content #newsletter-popup {
   margin: 10% auto;
@@ -1563,6 +1563,14 @@
   #modal-content #newsletter-popup {
     margin: 35% auto;
     width: 95%;
+  }
+}
+@media (max-width: 425px) {
+  #modal-content #newsletter-popup .col-7 {
+    background: #ff9533d6;
+  }
+  #modal-content #newsletter-popup .col-md-5 img {
+    display: none;
   }
 }
 #modal-content #newsletter-popup .card-body {
@@ -1604,9 +1612,9 @@
   text-align: center;
   text-decoration: none;
   line-height: 30px;
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
-  z-index: 2;
+  z-index: 9999;
   cursor: pointer;
 }
 
@@ -2443,23 +2451,23 @@
   box-shadow: -8px 5px 30px 0 rgba(0, 0, 0, 0.2);
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(1) {
-  transform: rotate(-4deg) translate(-111px, -170px) scale(2);
+  transform: rotate(5deg) translate(-111px, -170px) scale(2);
   transition-delay: 0.4s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(2) {
-  transform: rotate(10deg) translate(-152px, 15px) scale(1.8);
+  transform: rotate(3deg) translate(-152px, 15px) scale(1.8);
   transition-delay: 0.45s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(3) {
-  transform: rotate(6deg) translate(76px, 95px) scale(1.7);
+  transform: rotate(-6deg) translate(76px, 95px) scale(1.7);
   transition-delay: 0.55s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(4) {
-  transform: rotate(-6deg) translate(300px, 60px) scale(1.5);
+  transform: rotate(1deg) translate(300px, 60px) scale(1.5);
   transition-delay: 0.5s;
 }
 #gallery #container a .item:hover .previews .preview-image:nth-child(5) {
-  transform: rotate(7deg) translate(269px, -160px) scale(2);
+  transform: rotate(-9deg) translate(269px, -160px) scale(2);
   transition-delay: 0.6s;
 }
 @keyframes shake {

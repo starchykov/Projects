@@ -1,14 +1,11 @@
-body {
-  overflow: hidden;
-}
 body .carousel-item {
   overflow: hidden !important;
 }
-body .container-fluid {
-  padding: 0 5% 0;
+body header {
+  height: 20vh;
 }
 body header .navbar {
-  padding: 50px 0 0 0;
+  padding: 50px 5% 0 0;
 }
 body header .navbar .navbar-brand img {
   height: 35px;
@@ -23,11 +20,18 @@ body header .navbar #navbar .nav-link {
   text-decoration: none;
   margin: 0 40px;
 }
+body main {
+  height: 80vh;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
 body main .row {
-  height: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 20px 0 20px;
 }
 body main .row .contentTop {
   position: relative;
@@ -68,7 +72,7 @@ body main .row .contentTop button {
   font-size: 18px;
 }
 body main .row .contentTop button:first-of-type {
-  margin: 0 15px 0 0;
+  margin: 0 8px 0 0;
 }
 body main .row .contentTop button:last-of-type {
   margin: 0 0 0 15px;

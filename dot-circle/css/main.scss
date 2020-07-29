@@ -1823,7 +1823,7 @@ html {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  z-index: 9999;
+  z-index: 9998;
 
 
   #newsletter-popup {
@@ -1837,6 +1837,18 @@ html {
     @media (max-width: 768px) {
       margin: 35% auto;
       width: 95%;
+    }
+
+    @media (max-width: 425px) {
+      .col-7 {
+        background: #ff9533d6;
+      }
+
+      .col-md-5 {
+        img {
+          display: none;
+        }
+      }
     }
 
     .card-body {
@@ -1883,9 +1895,9 @@ html {
     text-align: center;
     text-decoration: none;
     line-height: 30px;
-    font-family: "Gloria Hallelujah", cursive;
+    font-family: "Arial", sans-serif;
     font-weight: bold;
-    z-index: 2;
+    z-index: 9999;
     cursor: pointer;
   }
 }
