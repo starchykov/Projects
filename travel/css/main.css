@@ -3,6 +3,7 @@ body .carousel-item {
 }
 body header {
   height: 20vh;
+  padding: 0 5% 0;
 }
 body header .navbar {
   padding: 50px 5% 0 0;
@@ -89,7 +90,13 @@ body main .row .contentBottom p {
   color: white;
   margin-bottom: 20px;
 }
-body main .row .contentBottom button {
+body main .row .contentBottom .buttonBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+body main .row .contentBottom .buttonBlock button {
   width: 100px;
   background: transparent;
   height: 40px;
@@ -97,12 +104,9 @@ body main .row .contentBottom button {
   border: 3px solid white;
   color: white;
   font-size: 12px;
+  margin-bottom: 10px;
 }
-body main .row .contentBottom button:first-of-type {
-  margin: 0 10px 0 0;
-}
-body main .row .contentBottom button:last-of-type {
-  margin: 0 0 0 10px;
+body main .row .contentBottom .buttonBlock button:last-of-type {
   background: #ffc704;
   border: 2px solid #ffc704;
   box-shadow: 0 0.5rem 1rem rgba(255, 197, 4, 0.62);

@@ -5,6 +5,7 @@ body {
 
   header {
     height: 20vh;
+    padding: 0 5% 0;
 
     .navbar {
       padding: 50px 5% 0 0;
@@ -110,24 +111,30 @@ body {
           margin-bottom: 20px;
         }
 
-        button {
-          width: 100px;
-          background: transparent;
-          height: 40px;
-          border-radius: 50px;
-          border: 3px solid white;
-          color: white;
-          font-size: 12px;
+        .buttonBlock {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: stretch;
 
-          &:first-of-type {
-            margin: 0 10px 0 0;
-          }
+          button {
+            width: 100px;
+            background: transparent;
+            height: 40px;
+            border-radius: 50px;
+            border: 3px solid white;
+            color: white;
+            font-size: 12px;
+            margin-bottom: 10px;
 
-          &:last-of-type {
-            margin: 0 0 0 10px;
-            background: #ffc704;
-            border: 2px solid #ffc704;
-            box-shadow: 0 .5rem 1rem rgba(255, 197, 4, 0.62);
+            &:first-of-type {
+            }
+
+            &:last-of-type {
+              background: #ffc704;
+              border: 2px solid #ffc704;
+              box-shadow: 0 .5rem 1rem rgba(255, 197, 4, 0.62);
+            }
           }
         }
 
