@@ -1,23 +1,26 @@
 @import url("../fonts/Seconda/stylesheet.css");
 
 body {
-  background: rgb(49, 53, 64);
   background: linear-gradient(90deg, rgba(49, 53, 64, 1) 0%, rgba(22, 22, 22, 1) 35%);
   color: white;
-  overflow: hidden;
+  position: relative;
 
-
-  .container-fluid {
-    padding: 0 5% 0;
+  .plate {
+    position: absolute;
+    right: 0;
+    height: 100%;
   }
+
 
   header {
     width: 100%;
-    position: absolute;
+    padding: 10px 5% 10px;
+    display: flex;
+    align-items: center;
+
 
     .navbar {
       height: 10vh;
-      padding: 50px 0 0 0;
 
       .navbar-brand {
         a {
@@ -43,139 +46,141 @@ body {
   }
 
   main {
-    height: 100vh;
-    background-image: url(../img/plate.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5% 0;
+    height: 90vh;
 
-    .contentTop {
-      color: white;
-      font-weight: bold;
-      font-family: "Seconda Round", sans-serif;
-
-      h1 {
-        font-size: 150px;
-      }
-
-      h2 {
-        font-style: italic;
-      }
-
-      h3 {
-        color: #ffbe00;
-        font-weight: 400;
-        font-style: italic;
-
-      }
-
-      button {
-        width: 170px;
-        background: transparent;
-        height: 50px;
-        border-radius: 50px;
-        border: 3px solid white;
-        color: white;
-        font-size: 18px;
-        margin: 51px 0 0 0;
-        font-weight: 500;
-      }
-    }
-
-    .contentBottom {
-      //margin: 200px 0 0 0;
-      position: absolute;
-      bottom: 30px;
-
-
-      .slider {
-
-
-        .sliderItem {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: flex-end;
-
-          img {
-            float: left;
-            position: absolute;
-            left: 0;
-          }
-
-          h5 {
-            float: right;
-            width: 52%;
-          }
-
-          p {
-            float: right;
-            font-size: 15px;
-            width: 52%;
-            text-align: justify;
-          }
-        }
-
-        .contr {
-          color: black;
-          background: #ffbf00;
-          width: 40px;
-          font-size: 28px;
-
-          &:nth-of-type(1) {
-            left: -50px;
-          }
-
-          &:nth-of-type(2) {
-            right: -50px;
-          }
-        }
-
-      }
-    }
-
-    .contentBR {
+    .row {
+      width: 100%;
       display: flex;
-      flex-wrap: wrap;
-      //position: absolute;
-      //right: 0;
-      //bottom: 50px;
 
-      h5 {
-        width: 100%;
-        color: black;
+      .contentTop {
+        color: white;
         font-weight: bold;
-      }
+        font-family: "Seconda Round", sans-serif;
 
-      span {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid black;
-        margin-right: 5px;
-        font-size: 30px;
-        color: black;
-        font-weight: bold;
-        position: relative;
+        h1 {
+          font-size: 150px;
+        }
 
-        &::before {
-          content: "";
-          width: 41px;
-          height: 41px;
-          position: absolute;
-          border: 2px solid white;
+        h2 {
+          font-style: italic;
+        }
+
+        h3 {
+          color: #ffbe00;
+          font-weight: 400;
+          font-style: italic;
+
+        }
+
+        button {
+          width: 170px;
+          background: transparent;
+          height: 50px;
+          border-radius: 50px;
+          border: 3px solid white;
+          color: white;
+          font-size: 18px;
+          margin: 51px 0 0 0;
+          font-weight: 500;
         }
       }
 
-      p {
-        width: 80%;
-        display: block;
-        color: black;
-        font-weight: lighter;
+      .contentBottom {
+        //margin: 200px 0 0 0;
+        align-self: flex-end;
+
+
+        .slider {
+
+
+          .sliderItem {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+
+            img {
+              float: left;
+              position: absolute;
+              left: 0;
+            }
+
+            h5 {
+              float: right;
+              width: 52%;
+            }
+
+            p {
+              float: right;
+              font-size: 15px;
+              width: 52%;
+              text-align: justify;
+            }
+          }
+
+          .contr {
+            color: black;
+            background: #ffbf00;
+            width: 40px;
+            font-size: 28px;
+
+            &:nth-of-type(1) {
+              left: -50px;
+            }
+
+            &:nth-of-type(2) {
+              right: -50px;
+            }
+          }
+
+        }
+      }
+
+      .contentBR {
+        display: flex;
+        flex-wrap: wrap;
+        //position: absolute;
+        //right: 0;
+        //bottom: 50px;
+
+        h5 {
+          width: 100%;
+          color: black;
+          font-weight: bold;
+        }
+
+        span {
+          width: 50px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid black;
+          margin-right: 5px;
+          font-size: 30px;
+          color: black;
+          font-weight: bold;
+          position: relative;
+
+          &::before {
+            content: "";
+            width: 41px;
+            height: 41px;
+            position: absolute;
+            border: 2px solid white;
+          }
+        }
+
+        p {
+          width: 80%;
+          display: block;
+          color: black;
+          font-weight: lighter;
+        }
       }
     }
   }
