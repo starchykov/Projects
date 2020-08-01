@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #slider {
+  position: relative;
+  width: 600px;
+}
+body #slider .slider-body_ride {
+  width: 600px;
+  height: 200px;
+  border: 2px solid dimgrey;
+  overflow: hidden;
+}
+body #slider .slider-body_ride #slider-body {
+  background: pink;
+  width: 2000px;
+  position: relative;
+  left: 0;
+  transition: all 1s;
+}
+body #slider .slider-body_ride #slider-body ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body #slider .slider-body_ride #slider-body .slider-body_item {
+  width: 200px;
+  height: 200px;
+  background: yellowgreen;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+body #slider .slider-body_ride #slider-body .slider-body_item:nth-child(even) {
+  background: dimgrey;
+}
+body #slider #slider_button-left {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: -50px;
+  top: 50%;
+}
+body #slider #slider_button-right {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
