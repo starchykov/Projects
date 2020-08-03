@@ -1363,8 +1363,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/palindrom/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+                <state relative-caret-position="238">
+                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -1562,7 +1562,7 @@
       <workItem from="1596030802920" duration="3144000" />
       <workItem from="1596059795732" duration="13410000" />
       <workItem from="1596221140518" duration="15047000" />
-      <workItem from="1596459225135" duration="6771000" />
+      <workItem from="1596459225135" duration="7339000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590160799392</created>
@@ -1837,11 +1837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596464520496</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="4">
+      <created>1596467106132</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1596467106132</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109834000" />
+    <option name="totallyTimeSpent" value="110402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -4109,8 +4116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/palindrom/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="238">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
