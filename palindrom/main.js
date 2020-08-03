@@ -7,19 +7,43 @@ const palindrom = (i, r, s) => {
 
     str = s.value.toLowerCase();
 
-    if (str === str.split('').reverse().join('')) {
-        r.innerHTML = 'Слово "' + str + '" - полиндром';
-        i.setAttribute("style", "background: yellowgreen;")
-    } else {
-        r.innerHTML = 'Слово "' + str + '" - не полиндром';
-        i.setAttribute("style", "background: red;")
-    }
+    let compare = str === str.split('').reverse().join('');
 
+    switch (compare) {
+        case true :
+            r.innerHTML = 'Слово "' + str + '" - полиндром';
+            i.setAttribute("style", "background: yellowgreen;");
+            break;
+
+        case false :
+            r.innerHTML = 'Слово "' + str + '" - не полиндром';
+            i.setAttribute("style", "background: red;");
+            break;
+    }
 };
 
 btn.addEventListener("click", () => palindrom(inp, result, inp));
 
 
+//------------------second variant------------------
+
+// const palindrom = (i, r, s) => {
+//
+//     str = s.value.toLowerCase();
+//
+//     if (str === str.split('').reverse().join('')) {
+//         r.innerHTML = 'Слово "' + str + '" - полиндром';
+//         i.setAttribute("style", "background: yellowgreen;")
+//     } else {
+//         r.innerHTML = 'Слово "' + str + '" - не полиндром';
+//         i.setAttribute("style", "background: red;")
+//     }
+// };
+//
+// btn.addEventListener("click", () => palindrom(inp, result, inp));
+
+
+//------------------third variant------------------
 
 // btn.onclick = palindrom = () => {
 //
