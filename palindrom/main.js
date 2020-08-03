@@ -3,17 +3,35 @@ let inp = document.getElementById('text');
 let result = document.getElementById('result');
 
 
-btn.onclick = palindrom = () => {
-    let str = document.getElementById('text').value.toLowerCase();
+const palindrom = (i, r, s) => {
+
+    str = s.value.toLowerCase();
 
     if (str === str.split('').reverse().join('')) {
-        result.innerHTML = 'Да';
-        inp.setAttribute("style", "background: yellowgreen;")
+        r.innerHTML = 'Да';
+        i.setAttribute("style", "background: yellowgreen;")
     } else {
         result.innerHTML = 'Нет';
-        inp.setAttribute("style", "background: red;")
+        i.setAttribute("style", "background: red;")
     }
+
 };
+
+btn.addEventListener("click", () => palindrom(inp, result, inp));
+
+
+// btn.onclick = palindrom = () => {
+//
+//     str = document.getElementById('text').value.toLowerCase();
+//
+//     if (str === str.split('').reverse().join('')) {
+//         result.innerHTML = 'Да';
+//         inp.setAttribute("style", "background: yellowgreen;")
+//     } else {
+//         result.innerHTML = 'Нет';
+//         inp.setAttribute("style", "background: red;")
+//     }
+// };
 
 
 // const palindrom = (str) => {
