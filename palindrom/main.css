@@ -1,20 +1,19 @@
 body {
   background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
   height: 100vh;
+  font-family: sans-serif;
 }
 body section {
   margin: 100px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 400px;
+  width: max-content;
+}
+body section h1 {
+  text-align: center;
 }
 body section .inputBlock {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
 }
 body section .inputBlock input {
   width: 300px;
@@ -26,19 +25,18 @@ body section .inputBlock input {
   border: white;
 }
 body section .inputBlock button {
-  height: 76px;
+  height: 70px;
   border-radius: 10px;
   background: #ff5722;
   outline: none;
   border: none;
   font-size: 20px;
+  margin: 5px;
 }
 body section .answerBlock {
-  width: 400px;
-  font-size: 18px;
+  width: 100%;
+  text-align: center;
   padding: 8px;
-  text-align: start;
-  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

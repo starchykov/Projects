@@ -8,16 +8,17 @@ const palindrom = (i, r, s) => {
     str = s.value.toLowerCase();
 
     if (str === str.split('').reverse().join('')) {
-        r.innerHTML = 'Да';
+        r.innerHTML = 'Слово "' + str + '" - полиндром';
         i.setAttribute("style", "background: yellowgreen;")
     } else {
-        result.innerHTML = 'Нет';
+        r.innerHTML = 'Слово "' + str + '" - не полиндром';
         i.setAttribute("style", "background: red;")
     }
 
 };
 
 btn.addEventListener("click", () => palindrom(inp, result, inp));
+
 
 
 // btn.onclick = palindrom = () => {

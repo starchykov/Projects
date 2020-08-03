@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c690754b-8b30-4fc3-a5c0-f037cbbaa63d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindrom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindrom/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindrom/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/palindrom/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindrom/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1350,8 +1354,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/palindrom/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+                <state relative-caret-position="374">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -1363,8 +1367,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/palindrom/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -1447,14 +1451,14 @@
         <option value="$PROJECT_DIR$/hungry/css/main.scss" />
         <option value="$PROJECT_DIR$/javascript/main.js" />
         <option value="$PROJECT_DIR$/javascript/index.html" />
-        <option value="$PROJECT_DIR$/palindrom/main.scss" />
-        <option value="$PROJECT_DIR$/palindrom/index.html" />
         <option value="$PROJECT_DIR$/../right-arrow.svg" />
         <option value="$PROJECT_DIR$/../left-arrow.svg" />
         <option value="$PROJECT_DIR$/slider/index.html" />
         <option value="$PROJECT_DIR$/slider/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/slider/main.js" />
+        <option value="$PROJECT_DIR$/palindrom/main.scss" />
+        <option value="$PROJECT_DIR$/palindrom/index.html" />
         <option value="$PROJECT_DIR$/palindrom/main.js" />
       </list>
     </option>
@@ -1562,7 +1566,7 @@
       <workItem from="1596030802920" duration="3144000" />
       <workItem from="1596059795732" duration="13410000" />
       <workItem from="1596221140518" duration="15047000" />
-      <workItem from="1596459225135" duration="3145000" />
+      <workItem from="1596459225135" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590160799392</created>
@@ -1823,11 +1827,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596385688564</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="4">
+      <created>1596462416256</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1596462416256</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106208000" />
+    <option name="totallyTimeSpent" value="108302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -3953,13 +3964,6 @@
         <state relative-caret-position="-174" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palindrom/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../right-arrow.svg" />
     <entry file="file://$PROJECT_DIR$/../left-arrow.svg" />
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -4086,17 +4090,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/palindrom/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/palindrom/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/palindrom/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
