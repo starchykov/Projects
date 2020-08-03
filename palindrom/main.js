@@ -1,7 +1,10 @@
-let btn = document.getElementById('btn');
-let inp = document.getElementById('text');
-let result = document.getElementById('result');
+const element = (n) => {
+    return document.getElementById(n)
+};
 
+let btn = element('btn');
+let inp = element('text');
+let result = element('result');
 
 const palindrom = (i, r, s) => {
 
@@ -21,6 +24,7 @@ const palindrom = (i, r, s) => {
 };
 
 btn.addEventListener("click", () => palindrom(inp, result, inp));
+clrBtn.addEventListener("click", () => element('result').innerHTML = '');
 
 
 //------------------first variant------------------
