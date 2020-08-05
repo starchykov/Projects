@@ -1,0 +1,41 @@
+section {
+  margin: 100px auto;
+  width: max-content;
+}
+section .calculator {
+  width: 400px;
+}
+section .calculator .result {
+  display: flex;
+  justify-content: center;
+}
+section .calculator .result span {
+  width: 100%;
+  height: 25px;
+  font-size: 25px;
+  text-align: right;
+}
+section .calculator hr {
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+section .calculator .inputBlock {
+  display: flex;
+  justify-content: space-between;
+}
+section .calculator .inputBlock input {
+  font-size: 20px;
+  width: 40%;
+  height: 25px;
+}
+section .calculator .operationBlock {
+  margin-top: 10px;
+}
+section .calculator .operationBlock button {
+  font-size: 25px;
+  width: 97px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

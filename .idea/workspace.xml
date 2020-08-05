@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c690754b-8b30-4fc3-a5c0-f037cbbaa63d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palindrom/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/palindrom/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-circle/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dot-circle/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1344,14 +1347,14 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.41651264">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/palindrom/index.html">
+            <entry file="file://$PROJECT_DIR$/calculator/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+                <state relative-caret-position="629">
+                  <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -1359,12 +1362,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/calculator/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/calculator/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/palindrom/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -1377,8 +1398,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -1405,10 +1426,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Downloads/demo2.drfuri.com/baroque/home-parallax/index.htm" />
-        <option value="$PROJECT_DIR$/dot-circle/js/main.js" />
-        <option value="$PROJECT_DIR$/main.scss" />
-        <option value="$PROJECT_DIR$/dot-circle/css/main.scss" />
         <option value="$PROJECT_DIR$/dot-circle/php/backend.php" />
         <option value="$PROJECT_DIR$/dot-circle/pages/better.html" />
         <option value="$PROJECT_DIR$/dot-circle/pages/better.scss" />
@@ -1454,8 +1471,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/slider/main.js" />
         <option value="$PROJECT_DIR$/palindrom/main.scss" />
-        <option value="$PROJECT_DIR$/palindrom/index.html" />
         <option value="$PROJECT_DIR$/palindrom/main.js" />
+        <option value="$PROJECT_DIR$/palindrom/index.html" />
+        <option value="$PROJECT_DIR$/dot-circle/js/main.js" />
+        <option value="$PROJECT_DIR$/calculator/main.scss" />
+        <option value="$PROJECT_DIR$/calculator/index.html" />
+        <option value="$PROJECT_DIR$/calculator/main.js" />
       </list>
     </option>
   </component>
@@ -1479,8 +1500,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1562,7 +1583,8 @@
       <workItem from="1596030802920" duration="3144000" />
       <workItem from="1596059795732" duration="13410000" />
       <workItem from="1596221140518" duration="15047000" />
-      <workItem from="1596459225135" duration="8651000" />
+      <workItem from="1596459225135" duration="18563000" />
+      <workItem from="1596641374108" duration="4664000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590160799392</created>
@@ -1851,17 +1873,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596467654748</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="4">
+      <created>1596474222710</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1596474222710</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111714000" />
+    <option name="totallyTimeSpent" value="126290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.13486141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1903,28 +1932,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dot-circle/php/backend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#888#1029#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dot-circle/pages/better.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dot-circle/pages/better.scss" />
     <entry file="file://$PROJECT_DIR$/dot-circle/pages/consulting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -3909,73 +3916,6 @@
         <state relative-caret-position="-2550" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dot-circle/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="129" column="8" lean-forward="true" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-          <folding>
-            <element signature="e#451#504#0" />
-            <element signature="e#796#1142#0" />
-            <element signature="e#806#909#0" />
-            <element signature="e#856#898#0" />
-            <element signature="e#919#1021#0" />
-            <element signature="e#968#1010#0" />
-            <element signature="e#1031#1133#0" />
-            <element signature="e#1080#1122#0" />
-            <element signature="e#1334#1680#0" />
-            <element signature="e#1344#1447#0" />
-            <element signature="e#1394#1436#0" />
-            <element signature="e#1457#1559#0" />
-            <element signature="e#1506#1548#0" />
-            <element signature="e#1569#1671#0" />
-            <element signature="e#1618#1660#0" />
-            <element signature="e#1873#2219#0" />
-            <element signature="e#1883#1986#0" />
-            <element signature="e#1933#1975#0" />
-            <element signature="e#1996#2098#0" />
-            <element signature="e#2045#2087#0" />
-            <element signature="e#2108#2210#0" />
-            <element signature="e#2157#2199#0" />
-            <element signature="e#2290#2335#0" />
-            <element signature="e#2884#3005#0" />
-            <element signature="e#2922#2957#0" />
-            <element signature="e#2963#2999#0" />
-            <element signature="e#3561#3601#0" />
-            <element signature="e#4293#5186#0" />
-            <element signature="e#4373#4556#0" />
-            <element signature="e#4591#4725#0" />
-            <element signature="e#4762#4973#0" />
-            <element signature="e#4806#4873#0" />
-            <element signature="e#5002#5177#0" />
-            <element signature="e#5046#5123#0" />
-            <element signature="e#5592#6485#0" />
-            <element signature="e#5672#5855#0" />
-            <element signature="e#5890#6024#0" />
-            <element signature="e#6061#6272#0" />
-            <element signature="e#6105#6172#0" />
-            <element signature="e#6301#6476#0" />
-            <element signature="e#6345#6422#0" />
-            <element signature="e#6975#7158#0" />
-            <element signature="e#7648#7725#0" />
-            <element signature="e#8130#8157#0" />
-            <element signature="e#14540#14724#0" />
-            <element signature="e#14653#14684#0" />
-            <element signature="e#14778#14967#0" />
-            <element signature="e#14896#14927#0" />
-            <element signature="e#15022#15071#0" />
-            <element signature="e#15707#16127#0" />
-            <element signature="e#15896#16121#0" />
-            <element signature="e#17313#17613#0" />
-            <element signature="e#17342#17378#0" />
-            <element signature="e#17429#17607#0" />
-            <element signature="e#17477#17548#0" />
-            <element signature="e#18293#18409#0" />
-            <element signature="e#18546#18578#0" />
-            <element signature="e#18622#18653#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chess/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-174" />
@@ -4114,17 +4054,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dot-circle/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+          <folding>
+            <element signature="e#796#1142#0" />
+            <element signature="e#806#909#0" />
+            <element signature="e#856#898#0" />
+            <element signature="e#919#1021#0" />
+            <element signature="e#968#1010#0" />
+            <element signature="e#1031#1133#0" />
+            <element signature="e#1080#1122#0" />
+            <element signature="e#1334#1680#0" />
+            <element signature="e#1344#1447#0" />
+            <element signature="e#1394#1436#0" />
+            <element signature="e#1457#1559#0" />
+            <element signature="e#1506#1548#0" />
+            <element signature="e#1569#1671#0" />
+            <element signature="e#1618#1660#0" />
+            <element signature="e#1873#2219#0" />
+            <element signature="e#1883#1986#0" />
+            <element signature="e#1933#1975#0" />
+            <element signature="e#1996#2098#0" />
+            <element signature="e#2045#2087#0" />
+            <element signature="e#2108#2210#0" />
+            <element signature="e#2157#2199#0" />
+            <element signature="e#2884#3005#0" />
+            <element signature="e#2922#2957#0" />
+            <element signature="e#2963#2999#0" />
+            <element signature="e#4373#4556#0" />
+            <element signature="e#4591#4725#0" />
+            <element signature="e#5002#5177#0" />
+            <element signature="e#5046#5123#0" />
+            <element signature="e#5592#6485#0" />
+            <element signature="e#5672#5855#0" />
+            <element signature="e#5890#6024#0" />
+            <element signature="e#6061#6272#0" />
+            <element signature="e#6105#6172#0" />
+            <element signature="e#6301#6476#0" />
+            <element signature="e#6345#6422#0" />
+            <element signature="e#8130#8157#0" />
+            <element signature="e#14540#14724#0" />
+            <element signature="e#14653#14684#0" />
+            <element signature="e#14778#14967#0" />
+            <element signature="e#14896#14927#0" />
+            <element signature="e#15022#15071#0" />
+            <element signature="e#15707#16127#0" />
+            <element signature="e#15896#16121#0" />
+            <element signature="e#17313#17613#0" />
+            <element signature="e#17342#17378#0" />
+            <element signature="e#17429#17607#0" />
+            <element signature="e#17477#17548#0" />
+            <element signature="e#18293#18409#0" />
+            <element signature="e#18546#18578#0" />
+            <element signature="e#18622#18653#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/palindrom/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/palindrom/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

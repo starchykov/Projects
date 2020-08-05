@@ -181,14 +181,14 @@
       event.preventDefault();
 
       var form = $("#contactForm"),
-        button = $("#button"),
-        answer = $("#answer"),
-        loader = $("#loader"),
-        first_name = $("#name"),
-        last_name = $("#lastname"),
-        email = $("#email");
-      phone = $("#phone");
-      message = $("#message");
+          button = $("#button"),
+          answer = $("#answer"),
+          loader = $("#loader"),
+          first_name = $("#name"),
+          last_name = $("#lastname"),
+          email = $("#email");
+          phone = $("#phone");
+          message = $("#message");
 
       $.ajax({
         url: "./php/backend.php",
@@ -225,14 +225,14 @@
       event.preventDefault();
 
       var form = $("#contactForm2"),
-        button = $("#button2"),
-        answer = $("#answer2"),
-        loader = $("#loader2"),
-        first_name = $("#name2"),
-        last_name = $("#lastname2"),
-        email = $("#email2");
-      phone = $("#phone2");
-      message = $("#message2");
+          button = $("#button2"),
+          answer = $("#answer2"),
+          loader = $("#loader2"),
+          first_name = $("#name2"),
+          last_name = $("#lastname2"),
+          email = $("#email2");
+          phone = $("#phone2");
+          message = $("#message2");
 
       $.ajax({
         url: "./php/backend.php",
@@ -316,7 +316,7 @@
 
   $(doc).attr("oncopy", "return true;");
 
-  $(doc).on("contextmenu", true);
+  $(doc).on("contextmenu", false);
   // -------------text!!------------------------------
 
   // -------------работа с меню------------------------
