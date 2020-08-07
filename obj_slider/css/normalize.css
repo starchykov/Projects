@@ -1,0 +1,13 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body #slider1, body #slider2 {
+    width: 100%;
+  }
+  body #slider1 img, body #slider2 img {
+    width: 80%;
+  }
+  body #slider1 button, body #slider2 button {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=normalize.css.map */
