@@ -1,0 +1,113 @@
+body {
+  height: 100vh;
+  font-family: "Myriad Pro Light", sans-serif;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .item-card {
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 1200px) {
+      width: 85%;
+    }
+
+    @media (max-width: 800px) {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .image {
+      width: 55%;
+      @media (max-width: 800px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .item-img-max {
+        width: 100%;
+        min-width: 300px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .item-img-min {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+
+        img {
+          width: 80px;
+          border: 5px solid transparent;
+        }
+
+        .active {
+          border: 5px solid orangered;
+        }
+      }
+    }
+
+    .description {
+      width: 45%;
+      padding: 10px;
+      min-width: 300px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      h1, h5, p {
+        color: #919191;
+        width: 100%;
+        text-shadow: 4px 2px 6px rgba(136, 165, 191, 0.48), -4px -2px 6px #FFFFFF;
+      }
+
+      h5 {
+        color: orangered;
+      }
+
+      @media (max-width: 800px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .size {
+        width: 70px;
+        height: 40px;
+        outline: none;
+        border: 3px solid orangered;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: bold;
+        background: orangered;
+        color: white;
+        align-self: flex-end;
+      }
+
+      .buy {
+        width: 230px;
+        height: 40px;
+        outline: none;
+        border: 3px solid orangered;
+        border-radius: 7px;
+        font-size: 20px;
+        align-self: flex-end;
+        background: orangered;
+        color: white;
+      }
+    }
+
+  }
+}
