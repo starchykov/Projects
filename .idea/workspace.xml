@@ -4,7 +4,6 @@
     <list default="true" id="c690754b-8b30-4fc3-a5c0-f037cbbaa63d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card_slider/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/card_slider/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card_slider/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/card_slider/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card_slider/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/card_slider/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1374,8 +1373,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/card_slider/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                <state relative-caret-position="17">
+                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -1583,14 +1582,7 @@
       <workItem from="1597083399862" duration="689000" />
       <workItem from="1597084235594" duration="1653000" />
       <workItem from="1597238623147" duration="616000" />
-      <workItem from="1597255259151" duration="13721000" />
-    </task>
-    <task id="LOCAL-00006" summary="2">
-      <created>1590615509296</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1590615509296</updated>
+      <workItem from="1597255259151" duration="14308000" />
     </task>
     <task id="LOCAL-00007" summary="2">
       <created>1590615773013</created>
@@ -1928,11 +1920,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597271776534</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="6">
+      <created>1597272146782</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1597272146782</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179139000" />
+    <option name="totallyTimeSpent" value="179726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -4446,8 +4445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/card_slider/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
