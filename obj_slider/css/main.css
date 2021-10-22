@@ -35,21 +35,81 @@ body #slider1 button, body #slider2 button {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 25px;
   margin: 20px;
   border: none;
   background: transparent;
   outline: none;
 }
-body #slider1 button svg, body #slider2 button svg {
-  display: block;
-  position: absolute;
-  fill: #ffed00;
-  filter: drop-shadow(2px 4px 4px #88a5bf99);
+body #slider1 button:active .arrow, body #slider2 button:active .arrow {
+  width: 100%;
 }
-body #slider1 button svg:first-of-type, body #slider2 button svg:first-of-type {
-  filter: drop-shadow(-3px -2px 3px #ffffff99);
+body #slider1 button:active .arrow.right:before, body #slider1 button:active .arrow.right:after, body #slider1 button:active .arrow.left:before, body #slider1 button:active .arrow.left:after, body #slider2 button:active .arrow.right:before, body #slider2 button:active .arrow.right:after, body #slider2 button:active .arrow.left:before, body #slider2 button:active .arrow.left:after {
+  background-color: dimgrey;
+}
+body #slider1 button .arrow, body #slider2 button .arrow {
+  width: 100%;
+}
+body #slider1 button .arrow.right:before, body #slider2 button .arrow.right:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  background-color: #7a7a7a;
+  transform: rotate(45deg);
+  width: 100%;
+  height: 8px;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  border-radius: 10px 6px 6px 10px;
+  z-index: -1;
+}
+body #slider1 button .arrow.right:after, body #slider2 button .arrow.right:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  background-color: #7a7a7a;
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 8px;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  border-radius: 10px 6px 6px 10px;
+  z-index: -1;
+}
+body #slider1 button .arrow.left:before, body #slider2 button .arrow.left:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: #7a7a7a;
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 8px;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  border-radius: 10px 6px 6px 10px;
+  z-index: -1;
+}
+body #slider1 button .arrow.left:after, body #slider2 button .arrow.left:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: #7a7a7a;
+  transform: rotate(45deg);
+  width: 100%;
+  height: 8px;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  border-radius: 10px 6px 6px 10px;
+  z-index: -1;
 }
 body #slider1 .disabled svg, body #slider2 .disabled svg {
   display: none;
