@@ -13,11 +13,16 @@ body h1 {
   text-shadow: 4px 2px 6px rgba(136, 165, 191, 0.48), -4px -2px 6px #FFFFFF;
 }
 body #slider1, body #slider2 {
-  width: max-content;
+  width: 600px;
   height: max-content;
-  margin: 50px auto;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+}
+body #slider1 *, body #slider2 * {
+  transition: all 0.2s;
 }
 body #slider1 img, body #slider2 img {
   width: 400px;
@@ -38,6 +43,7 @@ body #slider1 button, body #slider2 button {
   outline: none;
 }
 body #slider1 button svg, body #slider2 button svg {
+  display: block;
   position: absolute;
   fill: #ffed00;
   filter: drop-shadow(2px 4px 4px #88a5bf99);
@@ -46,11 +52,28 @@ body #slider1 button svg:first-of-type, body #slider2 button svg:first-of-type {
   filter: drop-shadow(-3px -2px 3px #ffffff99);
 }
 body #slider1 .disabled svg, body #slider2 .disabled svg {
+  display: none;
   fill: #0000004a;
   filter: drop-shadow(2px 4px 4px #88a5bf99);
 }
 body #slider1 .disabled svg:first-of-type, body #slider2 .disabled svg:first-of-type {
   filter: drop-shadow(-3px -2px 3px #ffffff99);
+}
+body #slider1 .indicators, body #slider2 .indicators {
+  display: flex;
+  justify-content: center;
+}
+body #slider1 .indicators div, body #slider2 .indicators div {
+  background: grey;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+body #slider1 .indicators div.active, body #slider2 .indicators div.active {
+  border-radius: 12px;
+  background: yellowgreen;
+  width: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
